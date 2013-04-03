@@ -72,9 +72,10 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-  # chrome
+  # Utils
   include chrome
   include chrome::canary
+  include sublime_text_2
 
   # common, useful packages
   package {
