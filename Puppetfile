@@ -30,6 +30,7 @@ github "nvm",      "1.0.0"
 github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
+github "chrome",   "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
