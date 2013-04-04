@@ -94,6 +94,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: platanus-repos/puppet-toggl
+  specs:
+    toggl (1.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -118,5 +123,6 @@ DEPENDENCIES
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
+  toggl (= 1.0.1)
   zsh (= 1.0.0)
 

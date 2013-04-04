@@ -78,6 +78,7 @@ node default {
   include sublime_text_2
   include dropbox
   include skype
+  include toggl
 
   # common, useful packages
   package {
