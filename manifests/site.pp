@@ -76,6 +76,7 @@ node default {
   include chrome
   include chrome::canary
   include sublime_text_2
+  include dropbox
 
   # common, useful packages
   package {
