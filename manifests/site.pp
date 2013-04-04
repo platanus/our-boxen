@@ -89,6 +89,12 @@ node default {
     ]:
   }
 
+  ruby::gem { 'negroku for 1.9.3':
+    gem     => 'negroku',
+    ruby    => '1.9.3',
+    version => '~> 0.0.3'
+  }
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
