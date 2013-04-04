@@ -1,5 +1,6 @@
 class people::blackjid {
   include zsh
+  include iterm2::stable
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
