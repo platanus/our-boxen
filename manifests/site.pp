@@ -54,17 +54,20 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {
   #  fail('Please enable full disk encryption and try again')
   #}
 
-  # node versions
-  #include nodejs::0-4
-  #include nodejs::0-6
-  include nodejs::0-8
+  # include some provided versions
+  include nodejs::v0_10
+  include nodejs::v0_8_8
+
+  # install any arbitrary nodejs version
+  nodejs { 'v0.10.1': }
+
+  class { 'nodejs::global': version => 'v0.10.0' }
 
   # default ruby versions
   #include ruby::1_8_7
