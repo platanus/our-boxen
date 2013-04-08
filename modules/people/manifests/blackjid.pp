@@ -2,6 +2,7 @@ class people::blackjid {
   include zsh
   include iterm2::stable
   include googledrive
+  include textual
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
