@@ -84,6 +84,11 @@ GITHUBTARBALL
     textual (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-toggl
+  specs:
+    toggl (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -97,11 +102,6 @@ GITHUBTARBALL
   remote: platanus-repos/puppet-googledrive
   specs:
     googledrive (1.0.0)
-
-GITHUBTARBALL
-  remote: platanus-repos/puppet-toggl
-  specs:
-    toggl (1.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -129,6 +129,6 @@ DEPENDENCIES
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
   textual (= 1.0.0)
-  toggl (= 1.0.1)
+  toggl (= 1.0.2)
   zsh (= 1.0.0)
 
