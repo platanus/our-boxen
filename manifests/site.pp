@@ -71,9 +71,18 @@ node default {
 
   # install some npm modules
   # Yeoman tools
-  nodejs::module { 'yo': node_version => 'v0.10' }
-  nodejs::module { 'grunt-cli': node_version => 'v0.10' }
-  nodejs::module { 'bower': node_version => 'v0.10' }
+  nodejs::module { 'yo for v0.10':
+    module  => 'yo',
+    node_version => 'v0.10',
+  }
+  nodejs::module { 'grunt-cli for v0.10':
+    module  => 'grunt-cli',
+    node_version => 'v0.10',
+  }
+  nodejs::module { 'bower for v0.10':
+    module  => 'bower',
+    node_version => 'v0.10',
+  }
 
   # default ruby versions
   #include ruby::1_8_7
