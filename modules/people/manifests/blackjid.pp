@@ -3,6 +3,7 @@ class people::blackjid {
   include iterm2::stable
   include googledrive
   include textual
+  #include skydrive
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
@@ -13,5 +14,5 @@ class people::blackjid {
   #  require => File[$my]
   #}
 
-  include projects::all
+  #include projects::all
 }

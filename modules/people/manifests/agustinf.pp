@@ -10,5 +10,5 @@ class people::agustinf {
   #  require => File[$my]
   #}
 
-  include projects::all
+  #include projects::all
 }
