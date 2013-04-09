@@ -3,7 +3,7 @@ class people::blackjid {
   include iterm2::stable
   include googledrive
   include textual
-  #include skydrive
+  include skydrive
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"

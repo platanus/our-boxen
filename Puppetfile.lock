@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: blackjid/puppet-skydrive
+  specs:
+    skydrive (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.2.0)
@@ -124,6 +129,7 @@ DEPENDENCIES
   nodejs (= 2.0.0)
   osx (= 1.0.0)
   ruby (= 3.1.0)
+  skydrive (= 1.0.0)
   skype (= 1.0.2)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
