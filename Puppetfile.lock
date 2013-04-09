@@ -34,6 +34,11 @@ GITHUBTARBALL
     git (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.1.2)
@@ -104,11 +109,6 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
-  remote: platanus-repos/puppet-googledrive
-  specs:
-    googledrive (1.0.0)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -120,7 +120,7 @@ DEPENDENCIES
   dropbox (= 1.1.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
-  googledrive (= 1.0.0)
+  googledrive (= 1.0.1)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
