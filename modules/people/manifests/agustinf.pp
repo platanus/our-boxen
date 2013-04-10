@@ -1,5 +1,6 @@
 class people::agustinf {
   include googledrive
+  include textual
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
