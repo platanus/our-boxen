@@ -1,4 +1,6 @@
 class people::bunzli {
+  include textual
+  include mongodb
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
