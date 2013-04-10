@@ -45,4 +45,4 @@ github "googledrive",  "1.0.1"
 github "textual",  "1.0.0"
 github "skydrive", "1.0.0", :repo => "blackjid/puppet-skydrive"
 github "sequel_pro", "1.0.0"
-
+github "mysql", "1.1.0"
