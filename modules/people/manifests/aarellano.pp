@@ -1,5 +1,7 @@
 class people::aarellano {
 
+	include textual
+
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
