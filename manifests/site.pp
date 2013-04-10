@@ -97,7 +97,8 @@ node default {
   include dropbox
   include skype
   include toggl
-
+  include sequel_pro
+  
   # common, useful packages
   package {
     [
