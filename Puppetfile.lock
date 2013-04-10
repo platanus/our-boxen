@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: blackjid/puppet-skydrive
+  specs:
+    skydrive (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.2.0)
@@ -27,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-googledrive
+  specs:
+    googledrive (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -99,11 +109,6 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
-  remote: platanus-repos/puppet-googledrive
-  specs:
-    googledrive (1.0.0)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -115,7 +120,7 @@ DEPENDENCIES
   dropbox (= 1.1.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
-  googledrive (= 1.0.0)
+  googledrive (= 1.0.1)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
@@ -124,6 +129,7 @@ DEPENDENCIES
   nodejs (= 2.0.0)
   osx (= 1.0.0)
   ruby (= 3.1.0)
+  skydrive (= 1.0.0)
   skype (= 1.0.2)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)

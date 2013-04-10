@@ -85,10 +85,10 @@ node default {
   }
 
   # default ruby versions
-  #include ruby::1_8_7
-  #include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  class { 'ruby::global': version => '2.0.0' }
 
   # Utils
   include chrome
@@ -107,10 +107,10 @@ node default {
     ]:
   }
 
-  ruby::gem { 'negroku for 1.9.3':
+  ruby::gem { 'negroku for 2.0.0':
     gem     => 'negroku',
-    ruby    => '1.9.3',
-    version => '~> 0.0.3'
+    ruby    => '2.0.0',
+    version => '>=0.0.3'
   }
 
   file { "${boxen::config::srcdir}/our-boxen":
