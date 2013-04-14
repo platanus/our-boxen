@@ -114,6 +114,11 @@ GITHUBTARBALL
     toggl (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
@@ -154,5 +159,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   textual (= 1.0.0)
   toggl (= 1.0.2)
+  vlc (= 1.0.1)
   zsh (= 1.0.0)
 

@@ -4,6 +4,7 @@ class people::blackjid {
   include googledrive
   include textual
   include skydrive
+  include vlc
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
