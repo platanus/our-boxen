@@ -129,6 +129,11 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
+  remote: petems/puppet-screenhero
+  specs:
+    screenhero (1.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -151,6 +156,7 @@ DEPENDENCIES
   nodejs (= 2.0.0)
   osx (= 1.0.0)
   ruby (= 3.6.0)
+  screenhero (= 1.0.1)
   sequel_pro (= 1.0.0)
   skydrive (= 1.0.0)
   skype (= 1.0.2)

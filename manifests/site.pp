@@ -107,6 +107,7 @@ node default {
   include skype
   include toggl
   include sequel_pro
+  include screenhero
 
   # common, useful packages
   package {
