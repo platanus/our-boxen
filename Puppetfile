@@ -26,7 +26,7 @@ github "hub",      "1.0.0"
 github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
 github "nodejs",   "2.0.0"
-github "ruby",     "3.1.0"
+github "ruby",     "3.6.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 

@@ -84,7 +84,7 @@ node default {
     node_version => 'v0.10',
   }
 
-  # mysql 
+  # mysql
   include mysql
 
   # default ruby versions
@@ -92,6 +92,12 @@ node default {
   include ruby::2_0_0
 
   class { 'ruby::global': version => '2.0.0' }
+
+  # Install rbenv vars plugin
+  ruby::plugin { 'rbenv-vars':
+    version => 'v1.2.0',
+    source  => 'sstephenson/rbenv-vars'
+  }
 
   # Utils
   include chrome
@@ -101,7 +107,7 @@ node default {
   include skype
   include toggl
   include sequel_pro
-  
+
   # common, useful packages
   package {
     [
