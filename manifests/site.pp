@@ -108,6 +108,7 @@ node default {
   include toggl
   include sequel_pro
   include screenhero
+  include bash-completion
 
   # common, useful packages
   package {
