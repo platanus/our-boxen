@@ -104,6 +104,7 @@ node default {
   include toggl
   include sequel_pro
   include screenhero
+  include heroku
 
   # common, useful packages
   package {
