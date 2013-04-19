@@ -61,27 +61,23 @@ node default {
   #}
 
   # include some provided versions
-  include nodejs::v0_10
-  include nodejs::v0_8_8
+  include nodejs::v0_10_3
 
-  # install any arbitrary nodejs version
-  nodejs { 'v0.10.1': }
-
-  class { 'nodejs::global': version => 'v0.10.0' }
+  class { 'nodejs::global': version => 'v0.10.3' }
 
   # install some npm modules
   # Yeoman tools
-  nodejs::module { 'yo for v0.10':
+  nodejs::module { 'yo for v0.10.3':
     module  => 'yo',
-    node_version => 'v0.10',
+    node_version => 'v0.10.3',
   }
-  nodejs::module { 'grunt-cli for v0.10':
+  nodejs::module { 'grunt-cli for v0.10.3':
     module  => 'grunt-cli',
-    node_version => 'v0.10',
+    node_version => 'v0.10.3',
   }
-  nodejs::module { 'bower for v0.10':
+  nodejs::module { 'bower for v0.10.3':
     module  => 'bower',
-    node_version => 'v0.10',
+    node_version => 'v0.10.3',
   }
 
   # mysql
