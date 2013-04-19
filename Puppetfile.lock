@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (1.2.0)
+    boxen (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -79,6 +79,11 @@ GITHUBTARBALL
     osx (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-repository
+  specs:
+    repository (2.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.6.0)
@@ -139,7 +144,7 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
-  boxen (= 1.2.0)
+  boxen (= 2.1.0)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
@@ -155,6 +160,7 @@ DEPENDENCIES
   nginx (= 1.1.0)
   nodejs (= 2.0.0)
   osx (= 1.0.0)
+  repository (= 2.0.0)
   ruby (= 3.6.0)
   screenhero (= 1.0.1)
   sequel_pro (= 1.0.0)
