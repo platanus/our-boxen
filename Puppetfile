@@ -28,7 +28,7 @@ github "inifile",  "1.0.0"
 github "nginx",    "1.4.0"
 github "nodejs",   "2.1.0"
 github "ruby",     "3.6.0"
-github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "stdlib",   "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at

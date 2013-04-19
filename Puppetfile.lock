@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (3.0.0)
+    stdlib (4.0.2)
 
 DEPENDENCIES
   boxen (= 2.1.0)
@@ -166,7 +166,7 @@ DEPENDENCIES
   sequel_pro (= 1.0.0)
   skydrive (= 1.0.0)
   skype (= 1.0.2)
-  stdlib (= 3.0.0)
+  stdlib (= 4.0.2)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
   textual (= 1.0.0)
