@@ -105,6 +105,7 @@ node default {
   include sequel_pro
   include screenhero
   include heroku
+  include pivotalbooster
 
   # common, useful packages
   package {
