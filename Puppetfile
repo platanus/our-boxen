@@ -18,7 +18,7 @@ github "boxen", "2.1.0"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "repository", "2.0.0"
+github "repository", "2.0.2"
 github "dnsmasq",  "1.0.0"
 github "gcc",      "1.0.0"
 github "git",      "1.2.2"
