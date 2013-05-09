@@ -71,14 +71,6 @@ node default {
     module  => 'yo',
     node_version => 'v0.10.3',
   }
-  nodejs::module { 'grunt-cli for v0.10.3':
-    module  => 'grunt-cli',
-    node_version => 'v0.10.3',
-  }
-  nodejs::module { 'bower for v0.10.3':
-    module  => 'bower',
-    node_version => 'v0.10.3',
-  }
 
   # mysql
   include mysql
