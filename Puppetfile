@@ -52,3 +52,11 @@ github "vlc",       		"1.0.1"
 github "screenhero", 		"1.0.1", :repo => "petems/puppet-screenhero"
 github "heroku",    		"2.0.0"
 github "pivotalbooster",  	"1.0.3"
+
+## PHP module
+github "php", 				"0.5.6"
+github "wget",				"1.0.0"
+github "libtool", 			"1.0.0"
+github "autoconf",			"1.0.0"
+github "pkgconfig",			"1.0.0"
+github "pcre",				"1.0.0"
