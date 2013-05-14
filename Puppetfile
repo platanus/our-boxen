@@ -36,7 +36,7 @@ github "sudo",       "1.0.0"
 
 github "chrome",   			"1.1.0"
 github "sublime_text_2",    "1.1.0"
-github "osx",	   			"1.1.0"
+github "osx",	   			"1.2.0"
 github "zsh", 	   			"1.0.0"
 github "dropbox",  			"1.1.0"
 github "iterm2",   			"1.0.2"
