@@ -164,6 +164,11 @@ GITHUBTARBALL
     vagrant (2.0.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.0.1)
@@ -224,6 +229,7 @@ DEPENDENCIES
   textual (= 1.0.0)
   toggl (= 1.0.2)
   vagrant (= 2.0.7)
+  virtualbox (= 1.0.2)
   vlc (= 1.0.1)
   wget (= 1.0.0)
   zsh (= 1.0.0)

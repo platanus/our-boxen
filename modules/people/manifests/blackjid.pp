@@ -6,6 +6,8 @@ class people::blackjid {
   include skydrive
   include vlc
   include pivotalbooster
+
+  include virtualbox
   include vagrant
 
   $home     = "/Users/${::luser}"
