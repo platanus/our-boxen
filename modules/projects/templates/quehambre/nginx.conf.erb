@@ -16,7 +16,7 @@ server {
 
   error_page 500 502 503 504 /50x.html;
 
-  location ~* ^.+.(jpg|jpeg|gif|css|png|js|ico|xml)$ {
+  location ~* ^.+.(jpg|jpeg|gif|css|png|js|ico|xml|woff|ttf)$ {
     access_log        off;
     expires           30d;
   }
