@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: blackjid/puppet-eclipse
+  specs:
+    eclipse (1.0.2)
+
+GITHUBTARBALL
   remote: blackjid/puppet-skydrive
   specs:
     skydrive (1.0.0)
@@ -199,6 +204,7 @@ DEPENDENCIES
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
+  eclipse (= 1.0.2)
   gcc (= 1.0.0)
   git (= 1.2.3)
   googledrive (= 1.0.1)
