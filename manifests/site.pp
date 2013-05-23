@@ -76,14 +76,18 @@ node default {
   include mysql
 
   # default ruby versions
-  include ruby::1_9_3
-  include ruby::2_0_0
+  include ruby::1_9_3_p125
+  include ruby::1_9_3_p392
+  include ruby::2_0_0_p0
+  include ruby::2_0_0_p195
 
-  class { 'ruby::global': version => '2.0.0' }
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
 
   # Install rbenv vars plugin
   ruby::plugin { 'rbenv-vars':
-    version => 'v1.2.0',
+    ensure => 'v1.2.0',
     source  => 'sstephenson/rbenv-vars'
   }
 
