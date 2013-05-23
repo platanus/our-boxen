@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (2.2.0)
+    nodejs (3.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-osx
@@ -217,7 +217,7 @@ DEPENDENCIES
   mongodb (= 1.0.0)
   mysql (= 1.1.0)
   nginx (= 1.4.0)
-  nodejs (= 2.2.0)
+  nodejs (= 3.2.3)
   osx (= 1.2.0)
   pcre (= 1.0.0)
   php (= 0.5.6)
