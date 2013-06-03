@@ -51,10 +51,10 @@ github "mongodb",  			"1.0.0"
 github "vlc",       		"1.0.1"
 github "screenhero", 		"1.0.1", :repo => "petems/puppet-screenhero"
 github "heroku",    		"2.0.0"
-github "pivotalbooster",  	"1.0.3"
 github "virtualbox",		"1.0.2"
 github "vagrant",			"2.0.7"
-github "eclipse",			"1.0.2", :repo => "blackjid/puppet-eclipse"
+github "eclipse",			"2.0.0"
+github "android", 			"0.0.6"
 
 ## PHP module
 github "php", 				"0.5.6"

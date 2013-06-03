@@ -1,12 +1,12 @@
 GITHUBTARBALL
-  remote: blackjid/puppet-eclipse
-  specs:
-    eclipse (1.0.2)
-
-GITHUBTARBALL
   remote: blackjid/puppet-skydrive
   specs:
     skydrive (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-android
+  specs:
+    android (0.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-autoconf
@@ -32,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-eclipse
+  specs:
+    eclipse (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -114,11 +119,6 @@ GITHUBTARBALL
     php (0.5.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-pivotalbooster
-  specs:
-    pivotalbooster (1.0.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
@@ -199,12 +199,13 @@ GITHUBTARBALL
     stdlib (4.0.2)
 
 DEPENDENCIES
+  android (= 0.0.6)
   autoconf (= 1.0.0)
   boxen (= 2.3.1)
   chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
-  eclipse (= 1.0.2)
+  eclipse (= 2.0.0)
   gcc (= 1.0.0)
   git (= 1.2.3)
   googledrive (= 1.0.1)
@@ -221,7 +222,6 @@ DEPENDENCIES
   osx (= 1.2.0)
   pcre (= 1.0.0)
   php (= 0.5.6)
-  pivotalbooster (= 1.0.3)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 5.0.2)

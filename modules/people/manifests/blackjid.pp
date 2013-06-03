@@ -1,23 +1,17 @@
 class people::blackjid {
+
+  # Applications
   include zsh
   include iterm2::stable
   include googledrive
   include textual
   include skydrive
   include vlc
-  include pivotalbooster
 
-  include virtualbox
-  include vagrant
+  # Yeoman tools
+  nodejs::module { 'yo for v0.10.3':
+    module  => 'yo',
+    node_version => 'v0.10.3',
+  }
 
-  $home     = "/Users/${::luser}"
-  $my       = "${home}/my"
-  $dotfiles = "${my}/dotfiles"
-
-  #repository { $dotfiles:
-  #  source  => 'blackjid/dotfiles',
-  #  require => File[$my]
-  #}
-
-  #include projects::all
 }
