@@ -55,6 +55,8 @@ github "virtualbox",		"1.0.2"
 github "vagrant",			"2.0.7"
 github "eclipse",			"2.0.0"
 github "android", 			"0.0.6"
+github "imagemagick", 		"1.0.1", :repo => "shazino/puppet-imagemagick"
+github "xquartz", 			"1.1.0"
 
 ## PHP module
 github "php", 				"0.5.6"
