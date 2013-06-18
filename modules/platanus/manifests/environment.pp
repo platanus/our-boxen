@@ -30,7 +30,7 @@ class platanus::environment{
   include sublime_text_2
   include sequel_pro
 
-  # Communicationset(:bundle_cmd) { 'bundle' }
+  # Communication
   include skype
   include screenhero
 
