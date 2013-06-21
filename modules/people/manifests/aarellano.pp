@@ -3,6 +3,18 @@ class people::aarellano {
 	include textual
 	include zsh
 
+	sublime_text_2::package { 'Package Control':
+  		source => 'wbond/sublime_package_control'
+  	}
+
+	sublime_text_2::package { 'Git':
+  		source => 'kemayo/sublime-text-2-git'
+	}
+
+	sublime_text_2::package { 'GitGutter':
+  		source => 'jisaacks/GitGutter'
+	}	
+
 	$home = "/Users/${::boxen_user}"
 	$dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 
