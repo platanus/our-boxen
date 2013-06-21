@@ -10,5 +10,15 @@ class people::aarellano {
 		source => "${::github_login}/dotfiles"
 	}
 
-  #include projects::all
+	file { "${home}/.zshrc":
+		ensure  => link,
+		target  => "${dotfiles_dir}/.zshrc",
+		require => Repository[$dotfiles_dir]
+	}
+
+	file { "${home}/.gitconfig":
+		ensure => link,
+		target => "${dotfiles_dir}/.gitconfig",
+		require => Repository[$dotfiles_dir]
+	}
 }
