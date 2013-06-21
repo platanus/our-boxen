@@ -2,6 +2,7 @@ class people::aarellano {
 
 	include textual
 	include zsh
+	include better_touch_tools
 
 	sublime_text_2::package { 'Package Control':
   		source => 'wbond/sublime_package_control'
