@@ -21,4 +21,10 @@ class people::aarellano {
 		target => "${dotfiles_dir}/.gitconfig",
 		require => Repository[$dotfiles_dir]
 	}
+
+	file { "${home}/.aliases":
+		ensure => link,
+		target => "${dotfiles_dir}/.aliases",
+		require => Repository[$dotfiles_dir]
+	}
 }
