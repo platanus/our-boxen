@@ -3,14 +3,12 @@ class people::aarellano {
 	include textual
 	include zsh
 
-  $home     = "/Users/${::luser}"
-  $my       = "${home}/my"
-  $dotfiles = "${my}/dotfiles"
+	$home = "/Users/${::boxen_user}"
+	$dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 
-  #repository { $dotfiles:
-  #  source  => 'aarellano/dotfiles',
-  #  require => File[$my]
-  #}
+	repository { $dotfiles_dir:
+		source => "${::github_login}/dotfiles"
+	}
 
   #include projects::all
 }
