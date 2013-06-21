@@ -1,6 +1,7 @@
 class people::aarellano {
 
 	include textual
+	include zsh
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
