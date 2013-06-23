@@ -14,7 +14,15 @@ class people::aarellano {
 
 	sublime_text_2::package { 'GitGutter':
   		source => 'jisaacks/GitGutter'
-	}	
+	}
+
+	sublime_text_2::package { 'Puppet':
+		source => 'russCloak/SublimePuppet'
+	}
+
+	sublime_text_2::package { 'TrailingSpaces':
+		source => 'SublimeText/TrailingSpaces'
+	}
 
 	$home = "/Users/${::boxen_user}"
 	$dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
