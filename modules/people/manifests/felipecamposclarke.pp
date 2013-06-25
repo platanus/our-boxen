@@ -1,8 +1,5 @@
 class people::felipecamposclarke {
   include googledrive
-  include textual
-
-  nodejs { 'v0.8.17': }
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
