@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: blackjid/puppet-skydrive
-  specs:
-    skydrive (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (0.0.6)
@@ -142,6 +137,11 @@ GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
   specs:
     sequel_pro (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skydrive
+  specs:
+    skydrive (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-skype
