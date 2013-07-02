@@ -2,7 +2,9 @@ class people::aarellano {
 
 	include textual
 	include zsh
+	include tmux
 	include better_touch_tools
+	include java
 
 	sublime_text_2::package { 'Package Control':
   		source => 'wbond/sublime_package_control'
@@ -33,6 +35,12 @@ class people::aarellano {
 		require => Repository[$dotfiles_dir]
 	}
 
+	file { "${home}/.tmux.conf":
+		ensure  => link,
+		target  => "${dotfiles_dir}/.tmux.conf",
+		require => Repository[$dotfiles_dir]
+	}
+
 	file { "${home}/.gitconfig":
 		ensure => link,
 		target => "${dotfiles_dir}/.gitconfig",
@@ -42,6 +50,12 @@ class people::aarellano {
 	file { "${home}/.aliases":
 		ensure => link,
 		target => "${dotfiles_dir}/.aliases",
+		require => Repository[$dotfiles_dir]
+	}
+
+	file { "${home}/.tmux/rails_env":
+		ensure => link,
+		target => "${dotfiles_dir}/.tmux/rails_env",
 		require => Repository[$dotfiles_dir]
 	}
 

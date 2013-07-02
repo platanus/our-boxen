@@ -58,6 +58,8 @@ github "android", 			"0.0.6"
 github "imagemagick", 		"1.0.1", :repo => "shazino/puppet-imagemagick"
 github "xquartz", 			"1.1.0"
 github "better_touch_tools", "1.0.0"
+github "tmux", "1.0.2"
+github "java", "1.1.1"
 
 ## PHP module
 github "php", 				"0.5.6"
