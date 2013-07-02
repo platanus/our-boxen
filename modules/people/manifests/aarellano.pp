@@ -22,6 +22,10 @@ class people::aarellano {
 		source => 'russCloak/SublimePuppet'
 	}
 
+	sublime_text_2::package { 'Ruby Tests':
+		source => 'maltize/sublime-text-2-ruby-tests'
+	}
+
 	$home = "/Users/${::boxen_user}"
 	$dotfiles_dir = "${boxen::config::srcdir}/dotfiles"
 
