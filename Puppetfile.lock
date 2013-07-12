@@ -46,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.2.3)
+    git (1.2.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-googledrive
@@ -233,7 +233,7 @@ DEPENDENCIES
   dropbox (= 1.1.0)
   eclipse (= 2.0.0)
   gcc (= 1.0.0)
-  git (= 1.2.3)
+  git (= 1.2.4)
   googledrive (= 1.0.1)
   heroku (= 2.0.0)
   homebrew (= 1.1.2)
