@@ -69,6 +69,11 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-imagemagick
+  specs:
+    imagemagick (1.2.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-inifile
   specs:
     inifile (1.0.0)
@@ -218,11 +223,6 @@ GITHUBTARBALL
   specs:
     stdlib (4.0.2)
 
-GITHUBTARBALL
-  remote: shazino/puppet-imagemagick
-  specs:
-    imagemagick (1.0.1)
-
 DEPENDENCIES
   android (= 0.0.6)
   autoconf (= 1.0.0)
@@ -238,7 +238,7 @@ DEPENDENCIES
   heroku (= 2.0.0)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
-  imagemagick (= 1.0.1)
+  imagemagick (= 1.2.1)
   inifile (= 1.0.0)
   iterm2 (= 1.0.2)
   java (= 1.1.1)

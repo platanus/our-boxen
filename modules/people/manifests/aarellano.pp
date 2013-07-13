@@ -5,6 +5,7 @@ class people::aarellano {
 	include tmux
 	include better_touch_tools
 	include java
+	include imagemagick
 
 	sublime_text_2::package { 'Package Control':
   		source => 'wbond/sublime_package_control'
