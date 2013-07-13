@@ -7,6 +7,12 @@ class people::aarellano {
 	include java
 	include imagemagick
 
+  # Yeoman tools
+  nodejs::module { 'yo for v0.10.3':
+    module  => 'yo',
+    node_version => 'v0.10.3',
+  }
+
 	sublime_text_2::package { 'Package Control':
   		source => 'wbond/sublime_package_control'
   	}
