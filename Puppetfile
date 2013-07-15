@@ -62,7 +62,7 @@ github "java", "1.1.1"
 github "imagemagick", "1.2.1"
 
 ## PHP module
-github "php", 				"0.5.6"
+github "php", 				"1.1.0"
 github "wget",				"1.0.0"
 github "libtool", 			"1.0.0"
 github "autoconf",			"1.0.0"
