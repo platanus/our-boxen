@@ -10,7 +10,7 @@ class platanus::environment{
   include ruby::1_9_3_p392
   include ruby::2_0_0_p0
   include ruby::2_0_0_p195
-  class { 'ruby::global': version => '2.0.0' }
+  class { 'ruby::global': version => '2.0.0-p195' }
 
   ruby::plugin { 'rbenv-vars':
     ensure => 'v1.2.0',

@@ -27,9 +27,10 @@ github "hub",        "1.0.0"
 github "inifile",    "1.0.0"
 github "nginx",      "1.4.1"
 github "nodejs",     "3.2.3"
-github "ruby",       "6.0.0"
+github "ruby",       "6.1.1"
 github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
+github "openssl",    "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
