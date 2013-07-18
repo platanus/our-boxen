@@ -1,5 +1,8 @@
 class projects::lantest {
 
+  # Install chromedriver
+  package { 'chromedriver': }
+
   boxen::project { 'lantest':
     mysql         => true,
     nginx         => true,
