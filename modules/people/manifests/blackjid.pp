@@ -7,6 +7,7 @@ class people::blackjid {
   include textual
   include skydrive
   include vlc
+  include spectacle
 
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':

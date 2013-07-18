@@ -164,6 +164,11 @@ GITHUBTARBALL
     skype (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spectacle
+  specs:
+    spectacle (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.1)
@@ -263,6 +268,7 @@ DEPENDENCIES
   sequel_pro (= 1.0.0)
   skydrive (= 1.0.1)
   skype (= 1.0.2)
+  spectacle (= 1.0.0)
   stdlib (= 4.0.2)
   sublime_text_2 (= 1.1.1)
   sudo (= 1.0.0)
