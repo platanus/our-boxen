@@ -1,7 +1,8 @@
 class people::bunzli {
   include textual
   include mongodb
-  include better_touch_tools
+  include spectacle
+  include virtualbox
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
