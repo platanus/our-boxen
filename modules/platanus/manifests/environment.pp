@@ -29,6 +29,9 @@ class platanus::environment{
 
   # Development Tools
   include sublime_text_2
+  sublime_text_2::package { 'EditorConfig':
+    source => 'sindresorhus/editorconfig-sublime'
+  }
   include sequel_pro
 
   # Communication
