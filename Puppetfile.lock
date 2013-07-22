@@ -39,6 +39,11 @@ GITHUBTARBALL
     eclipse (2.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (1.0.0)
@@ -242,6 +247,7 @@ DEPENDENCIES
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
   eclipse (= 2.0.0)
+  firefox (= 1.1.1)
   gcc (= 1.0.0)
   git (= 1.2.4)
   googledrive (= 1.0.1)
