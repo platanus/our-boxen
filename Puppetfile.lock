@@ -186,7 +186,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-textual
   specs:
-    textual (1.1.2)
+    textual (3.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-tmux
@@ -278,7 +278,7 @@ DEPENDENCIES
   stdlib (= 4.0.2)
   sublime_text_2 (= 1.1.1)
   sudo (= 1.0.0)
-  textual (= 1.1.2)
+  textual (= 3.1.0)
   tmux (= 1.0.2)
   toggl (= 1.0.2)
   vagrant (= 2.0.7)
