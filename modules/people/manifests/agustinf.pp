@@ -3,6 +3,11 @@ class people::agustinf {
   include textual
   include better_touch_tools
 
+  package { 'pandoc':
+    source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
+    provider => 'pkgdmg'
+  }
+
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
