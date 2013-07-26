@@ -79,11 +79,6 @@ GITHUBTARBALL
     imagemagick (1.2.1)
 
 GITHUBTARBALL
-  remote: puppetlabs/puppetlabs-inifile
-  specs:
-    inifile (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.2)
@@ -116,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.2.8)
+    nodejs (3.2.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -239,6 +234,11 @@ GITHUBTARBALL
     screenhero (1.0.1)
 
 GITHUBTARBALL
+  remote: puppetlabs/puppetlabs-inifile
+  specs:
+    inifile (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.1.0)
@@ -267,7 +267,7 @@ DEPENDENCIES
   mongodb (= 1.0.0)
   mysql (= 1.1.0)
   nginx (= 1.4.2)
-  nodejs (= 3.2.8)
+  nodejs (= 3.2.9)
   openssl (= 1.0.0)
   osx (= 1.2.0)
   pcre (= 1.0.0)
