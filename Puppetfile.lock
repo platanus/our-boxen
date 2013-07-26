@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.2.0)
+    ruby (6.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -275,7 +275,7 @@ DEPENDENCIES
   php (= 1.1.0)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
-  ruby (= 6.2.0)
+  ruby (= 6.3.0)
   screenhero (= 1.0.1)
   sequel_pro (= 1.0.0)
   skydrive (= 1.0.1)
