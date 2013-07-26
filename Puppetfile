@@ -13,24 +13,26 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.3.6"
+github "boxen",      "3.0.1"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "repository", 			"2.2.0"
-github "dnsmasq",    			"1.0.0"
-github "gcc",        			"1.0.0"
-github "git",        			"1.2.4"
-github "homebrew",   			"1.1.2"
-github "hub",        			"1.0.0"
-github "inifile",    			"1.0.0"
-github "nginx",      			"1.4.1"
-github "nodejs",     			"3.2.3"
-github "ruby",       			"6.1.1"
-github "stdlib",     			"4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
-github "sudo",       			"1.0.0"
-github "openssl",    			"1.0.0"
+github "autoconf",   "1.0.0"
+github "dnsmasq",    "1.0.0"
+github "gcc",        "2.0.1"
+github "git",        "1.2.5"
+github "homebrew",   "1.4.1"
+github "hub",        "1.0.3"
+github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
+github "nginx",      "1.4.2"
+github "nodejs",     "3.2.8"
+github "openssl",    "1.0.0"
+github "repository", "2.2.0"
+github "ruby",       "6.2.0"
+github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "sudo",       "1.0.0"
+github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -57,7 +59,6 @@ github "virtualbox",			"1.0.4"
 github "vagrant",				"2.0.7"
 github "eclipse",				"2.0.0"
 github "android", 				"0.0.6"
-github "xquartz", 				"1.1.0"
 github "better_touch_tools", 	"1.0.0"
 github "tmux", 					"1.0.2"
 github "java", 					"1.1.1"
@@ -68,6 +69,5 @@ github "phantomjs", 				"2.0.2"
 github "php", 					"1.1.0"
 github "wget",					"1.0.0"
 github "libtool", 				"1.0.0"
-github "autoconf",				"1.0.0"
 github "pkgconfig",				"1.0.0"
 github "pcre",					"1.0.0"

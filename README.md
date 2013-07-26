@@ -22,6 +22,7 @@ and detect most of these and tell you anyway):
 
 * Boxen __requires__ at least the Xcode Command Line Tools installed.
 * Boxen __will not__ work with an existing rvm install.
+* Boxen __may not__ play nice with a GitHub username that includes dash(-)
 * Boxen __may not__ play nice with an existing rbenv install.
 * Boxen __may not__ play nice with an existing chruby install.
 * Boxen __may not__ play nice with an existing homebrew install.
@@ -51,12 +52,12 @@ to get started.
 The reason for that is that you can't really make private forks of public
 repositories easily.
 
-Once you've done that, you can run the following to get bootstrap
+Once you've done that, you can run the following to bootstrap
 your boxen:
 
 ```
 sudo mkdir -p /opt/boxen
-sudo chown ${USER}:admin /opt/boxen
+sudo chown ${USER}:staff /opt/boxen
 git clone https://github.com/boxen/our-boxen /opt/boxen/repo
 cd /opt/boxen/repo
 git remote rm origin
@@ -76,10 +77,17 @@ If you _don't_ want to use boxen-web, folks can get using your boxen like so:
 
 ```
 sudo mkdir -p /opt/boxen
-sudo chown ${USER}:admin /opt/boxen
+sudo chown ${USER}:staff /opt/boxen
 git clone <location of my new git repository> /opt/boxen/repo
 cd /opt/boxen/repo
 script/boxen
+```
+
+Keep in mind this requires you to encrypt your hard drive by default.
+If you do not want to do encrypt your hard drive, you can use the `--no-fde`.
+
+```
+script/boxen --no-fde
 ```
 
 It should run successfully, and should tell you to source a shell script
@@ -104,19 +112,18 @@ This template project provides the following by default:
 * Homebrew
 * Git
 * Hub
-* DNSMasq w/ .dev resolver for localhost
-* NVM
-* RBenv
+* dnsmasq w/ .dev resolver for localhost
+* rbenv
 * Full Disk Encryption requirement
-* NodeJS 0.4
-* NodeJS 0.6
-* NodeJS 0.8
+* Node.js 0.4
+* Node.js 0.6
+* Node.js 0.8
 * Ruby 1.8.7
 * Ruby 1.9.2
 * Ruby 1.9.3
-* Ack
+* ack
 * Findutils
-* GNU-Tar
+* GNU tar
 
 ## Customizing
 
@@ -134,26 +141,26 @@ boxen repo (ex. /path/to/your-boxen/Puppetfile):
     # Core modules for a basic development environment. You can replace
     # some/most of these if you want, but it's not recommended.
 
-    github "dnsmasq",  "1.0.0"
-    github "gcc",      "1.0.0"
-    github "git",      "1.0.0"
-    github "homebrew", "1.0.0"
-    github "hub",      "1.0.0"
-    github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
-    github "nginx",    "1.0.0"
-    github "nodejs",   "1.0.0"
-    github "nvm",      "1.0.0"
-    github "ruby",     "1.0.0"
-    github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
-    github "sudo",     "1.0.0"
+    github "repository", "2.0.2"
+    github "dnsmasq",    "1.0.0"
+    github "gcc",        "1.0.0"
+    github "git",        "1.2.2"
+    github "homebrew",   "1.1.2"
+    github "hub",        "1.0.0"
+    github "inifile",    "0.9.0", :repo => "cprice404/puppetlabs-inifile"
+    github "nginx",      "1.4.0"
+    github "nodejs",     "2.2.0"
+    github "ruby",       "4.1.0"
+    github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
+    github "sudo",       "1.0.0"
 
     # Optional/custom modules. There are tons available at
     # https://github.com/boxen.
 
-    github "java",     "1.0.5"
+    github "java",     "1.1.0"
 
 In the above snippet of a customized Puppetfile, the bottom line
-includes the Java module from Github using the tag "1.0.5" from the github repository
+includes the Java module from Github using the tag "1.1.0" from the github repository
 "boxen/puppet-java".  The function "github" is defined at the top of the Puppetfile
 and takes the name of the module, the version, and optional repo location:
 
@@ -166,7 +173,7 @@ and takes the name of the module, the version, and optional repo location:
 Now Puppet knows where to download the module from when you include it in your site.pp or mypersonal.pp file:
 
     # include the java module referenced in my Puppetfile with the line
-    # github "java",     "1.0.5"
+    # github "java",     "1.1.0"
     include java
 
 ### Node definitions
@@ -237,7 +244,7 @@ will be working in).
 
 ## Binary packages
 
-We support binary packaging for everything in Homebrew, RBEnv, and NVM.
+We support binary packaging for everything in Homebrew, rbenv, and nvm.
 See `config/boxen.rb` for the environment variables to define.
 
 ## Sharing Boxen Modules
@@ -250,6 +257,13 @@ we'll fork it under the Boxen org and give you read+write access to our
 fork.
 You'll still be the maintainer, you'll still own the issues and PRs.
 It'll just be listed under the boxen org so folks can find it more easily.
+
+## Integrating with Github Enterprise
+
+If you're using a Github Enterprise instance rather than github.com,
+you will need to set the "BOXEN_GITHUB_ENTERPRISE_URL" and
+"BOXEN_REPO_URL_TEMPLATE" variables in your
+[Boxen config](config/boxen.rb).
 
 ## Halp!
 
