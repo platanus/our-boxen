@@ -6,7 +6,11 @@
 # You will likely need to change both the root and SCRIPT_FILENAME parameters below
 # to match your setup
 #
+upstream php {
+        server unix:<%= scope.lookupvar "boxen::config::socketdir" %>/<%= @name %>;
+}
 server {
+  error_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.error.log notice;
   access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
   listen 80;
   root <%= @repo_dir %>/src;
@@ -16,15 +20,14 @@ server {
 
   error_page 500 502 503 504 /50x.html;
 
-  location ~* ^.+.(jpg|jpeg|gif|css|png|js|ico|xml|woff|ttf)$ {
-    access_log        off;
-    expires           30d;
+  index index.php;
+  location / {
+    try_files $uri $uri/ /index.php$is_args$args;
   }
 
-  location / {
+  location ~ \.php$ {
     include <%= scope.lookupvar "nginx::config::configdir" %>/fastcgi_params;
-    keepalive_timeout 0;
-    fastcgi_pass unix:<%= scope.lookupvar "boxen::config::socketdir" %>/<%= @name %>;
+    fastcgi_pass php;
     fastcgi_param SCRIPT_FILENAME <%= @repo_dir %>/src/index.php;
   }
 }
