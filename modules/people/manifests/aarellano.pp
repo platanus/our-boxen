@@ -6,6 +6,7 @@ class people::aarellano {
 	include better_touch_tools
 	include java
 	include imagemagick
+	include shortcat
 
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
