@@ -89,6 +89,11 @@ GITHUBTARBALL
     java (1.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-libpng
+  specs:
+    libpng (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-libtool
   specs:
     libtool (1.0.0)
@@ -263,6 +268,7 @@ DEPENDENCIES
   inifile (= 1.0.0)
   iterm2 (= 1.0.3)
   java (= 1.1.2)
+  libpng (= 1.0.0)
   libtool (= 1.0.0)
   mongodb (= 1.0.4)
   mysql (= 1.1.3)
