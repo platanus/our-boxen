@@ -179,6 +179,11 @@ GITHUBTARBALL
     sequel_pro (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-shortcat
+  specs:
+    shortcat (1.0.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-skydrive
   specs:
     skydrive (1.0.1)
@@ -296,6 +301,7 @@ DEPENDENCIES
   ruby (= 6.3.0)
   screenhero (= 1.0.1)
   sequel_pro (= 1.0.0)
+  shortcat (= 1.0.5)
   skydrive (= 1.0.1)
   skype (= 1.0.3)
   spectacle (= 1.0.0)

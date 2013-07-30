@@ -66,6 +66,7 @@ github "java", 					"1.1.2"
 github "imagemagick", 			"1.2.1"
 github "spectacle", 			"1.0.0"
 github "phantomjs", 			"2.0.2"
+github "shortcat", "1.0.5"
 ## PHP module
 github "php", 					"1.1.1"
 github "wget",					"1.0.0"
