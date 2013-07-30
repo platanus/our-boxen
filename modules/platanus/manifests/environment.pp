@@ -5,6 +5,11 @@ class platanus::environment{
   include nodejs::v0_10_3
   class { 'nodejs::global': version => 'v0.10.3' }
 
+  nodejs::module { 'bower for v0.10.3':
+    module  => 'bower',
+    node_version => 'v0.10.3',
+  }
+
   # Ruby
   include ruby::1_9_3_p125
   include ruby::1_9_3_p392
