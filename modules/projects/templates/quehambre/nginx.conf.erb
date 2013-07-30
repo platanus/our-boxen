@@ -7,9 +7,9 @@
 # to match your setup
 #
 server {
-  access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= name %>.access.log main;
+  access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
   listen 80;
-  root <%= repo_dir %>/src;
+  root <%= @repo_dir %>/src;
   server_name quehambre.dev quehambre.local www.quehambre.cl;
 
   client_max_body_size 50M;
@@ -24,8 +24,7 @@ server {
   location / {
     include <%= scope.lookupvar "nginx::config::configdir" %>/fastcgi_params;
     keepalive_timeout 0;
-    fastcgi_pass unix:<%= scope.lookupvar "boxen::config::socketdir" %>/<%= name %>;
-    fastcgi_param SCRIPT_FILENAME <%= repo_dir %>/src/index.php;
-    fastcgi_param PATH_INFO $fastcgi_script_name;
+    fastcgi_pass unix:<%= scope.lookupvar "boxen::config::socketdir" %>/<%= @name %>;
+    fastcgi_param SCRIPT_FILENAME <%= @repo_dir %>/src/index.php;
   }
 }
