@@ -10,11 +10,32 @@ upstream php {
         server unix:<%= scope.lookupvar "boxen::config::socketdir" %>/<%= @name %>;
 }
 server {
+  listen 80;
+  server_name quehambre.dev
+
+  return 301 $scheme://www.quehambre.dev$request_uri;
+}
+
+server {
+  listen 80;
+  server_name quehambre.local;
+
+  return 301 $scheme://www.quehambre.local$request_uri;
+}
+
+server {
+  listen 80;
+  server_name quehambre.cl;
+  
+  return 301 $scheme://www.quehambre.cl$request_uri;
+}
+
+server {
   error_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.error.log notice;
   access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
   listen 80;
   root <%= @repo_dir %>/src;
-  server_name quehambre.dev quehambre.local www.quehambre.cl;
+  server_name www.quehambre.dev www.quehambre.local www.quehambre.cl;
 
   client_max_body_size 50M;
 
