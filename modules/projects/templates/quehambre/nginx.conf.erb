@@ -11,7 +11,7 @@ upstream php {
 }
 server {
   listen 80;
-  server_name quehambre.dev
+  server_name quehambre.dev;
 
   return 301 $scheme://www.quehambre.dev$request_uri;
 }
