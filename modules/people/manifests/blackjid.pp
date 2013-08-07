@@ -15,4 +15,7 @@ class people::blackjid {
     node_version => 'v0.10.3',
   }
 
+  # Osx config
+  include people::blackjid::osx
+
 }
