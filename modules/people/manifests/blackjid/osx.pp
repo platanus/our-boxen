@@ -1,6 +1,6 @@
 class people::blackjid::osx {
 
-  osx::recovery_message { 'If this Mac is found, please call +569 77688023': }
+  osx::recovery_message { 'If this Mac is found, please reach me at jidonoso@gmail.com': }
 
   include osx::global::disable_key_press_and_hold
   include osx::global::enable_keyboard_control_access
