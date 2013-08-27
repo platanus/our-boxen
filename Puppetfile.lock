@@ -19,6 +19,11 @@ GITHUBTARBALL
     boxen (3.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.1)
@@ -258,6 +263,7 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   better_touch_tools (= 1.0.0)
   boxen (= 3.0.1)
+  caffeine (= 1.0.0)
   chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.1)
