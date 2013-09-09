@@ -42,6 +42,7 @@ class platanus::environment{
   # Communication
   include skype
   include screenhero
+  include mumble
 
 
   # App deployment
