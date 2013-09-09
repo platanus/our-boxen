@@ -8,6 +8,7 @@ class people::aarellano {
 	include imagemagick
 	include shortcat
 	include iterm2::stable
+	include clipmenu
 
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
