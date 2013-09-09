@@ -7,6 +7,7 @@ class people::aarellano {
 	include java
 	include imagemagick
 	include shortcat
+	include iterm2::stable
 
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
