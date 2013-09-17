@@ -1,8 +1,8 @@
 class people::bunzli {
   include textual
-  include spectacle
   include virtualbox
   include googledrive
+  include imagemagick
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
