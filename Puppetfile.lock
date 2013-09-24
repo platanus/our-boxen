@@ -164,6 +164,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (2.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-property_list_key
   specs:
     property_list_key (0.1.0)
@@ -217,6 +222,11 @@ GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-textual
@@ -308,6 +318,7 @@ DEPENDENCIES
   phantomjs (= 2.0.2)
   php (= 1.1.1)
   pkgconfig (= 1.0.0)
+  postgresql (= 2.0.1)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
@@ -320,6 +331,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
   textual (= 3.1.0)
   tmux (= 1.0.2)
   toggl (= 1.0.2)
