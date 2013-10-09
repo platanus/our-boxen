@@ -15,6 +15,7 @@ class platanus::environment{
   include ruby::1_9_3_p392
   include ruby::2_0_0_p0
   include ruby::2_0_0_p195
+  include ruby::2_0_0_p247
   class { 'ruby::global': version => '2.0.0-p195' }
 
   ruby::plugin { 'rbenv-vars':
