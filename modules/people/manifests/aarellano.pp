@@ -72,8 +72,4 @@ class people::aarellano {
 		target => "${dotfiles_dir}/.tmux/rails_env",
 		require => Repository[$dotfiles_dir]
 	}
-
-	exec {"osx-settings":
-		command => "/opt/boxen/homebrew/bin/zsh ${dotfiles_dir}/.osx-settings.sh"
-	}
 }
