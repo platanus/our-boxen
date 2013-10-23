@@ -10,6 +10,9 @@ class people::aarellano {
 	include iterm2::stable
 	include clipmenu
 
+  # Osx config
+  include people::aarellano::osx
+
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
     module  => 'yo',
