@@ -75,4 +75,10 @@ class people::aarellano {
 		target => "${dotfiles_dir}/.tmux/rails_env",
 		require => Repository[$dotfiles_dir]
 	}
+
+	file { "${home}/.pythonrc":
+		ensure => link,
+		target => "${dotfiles_dir}/.pythonrc",
+		require => Repository[$dotfiles_dir]
+	}
 }
