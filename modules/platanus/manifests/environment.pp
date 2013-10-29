@@ -1,13 +1,17 @@
 class platanus::environment{
 
+  # Global versions
+  $ruby_global = '2.0.0-p195'
+  $node_global = 'v0.10.3'
+
   # Node
   include nodejs::v0_8_8
   include nodejs::v0_10_3
-  class { 'nodejs::global': version => 'v0.10.3' }
+  class { 'nodejs::global': version => $node_global }
 
-  nodejs::module { 'bower for v0.10.3':
+  nodejs::module { "bower for ${node_global}":
     module  => 'bower',
-    node_version => 'v0.10.3',
+    node_version => $node_global,
   }
 
   # Ruby
@@ -16,7 +20,7 @@ class platanus::environment{
   include ruby::2_0_0_p0
   include ruby::2_0_0_p195
   include ruby::2_0_0_p247
-  class { 'ruby::global': version => '2.0.0-p195' }
+  class { 'ruby::global': version => $ruby_global }
 
   ruby::plugin { 'rbenv-vars':
     ensure => 'v1.2.0',
