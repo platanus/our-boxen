@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.1.0)
+    boxen (3.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -287,7 +287,7 @@ DEPENDENCIES
   android (= 1.0.0)
   autoconf (= 1.0.0)
   better_touch_tools (= 1.0.0)
-  boxen (= 3.1.0)
+  boxen (= 3.3.4)
   caffeine (= 1.0.0)
   chrome (= 1.1.1)
   clipmenu (= 1.0.0)
