@@ -181,7 +181,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.5.0)
+    ruby (6.7.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -321,7 +321,7 @@ DEPENDENCIES
   postgresql (= 2.0.1)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
-  ruby (= 6.5.0)
+  ruby (= 6.7.2)
   screenhero (= 1.0.1)
   sequel_pro (= 1.0.0)
   shortcat (= 1.0.5)
