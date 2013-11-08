@@ -1,9 +1,9 @@
 class people::bunzli {
-  include textual
   include virtualbox
   include googledrive
   include imagemagick
   include postgresql
+  include hipchat
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
