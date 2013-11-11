@@ -3,7 +3,6 @@ class people::bunzli {
   include googledrive
   include imagemagick
   include postgresql
-  include hipchat
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"

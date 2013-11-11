@@ -48,7 +48,7 @@ class platanus::environment{
   include skype
   include screenhero
   include mumble
-
+  include hipchat
 
   # App deployment
   include heroku
