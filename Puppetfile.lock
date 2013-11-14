@@ -271,7 +271,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.1.0)
+    xquartz (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -345,6 +345,6 @@ DEPENDENCIES
   virtualbox (= 1.0.5)
   vlc (= 1.0.3)
   wget (= 1.0.0)
-  xquartz (= 1.1.0)
+  xquartz (= 1.1.1)
   zsh (= 1.0.0)
 
