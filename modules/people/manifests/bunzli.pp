@@ -1,6 +1,5 @@
 class people::bunzli {
   include virtualbox
-  include googledrive
   include imagemagick
   include postgresql
 
