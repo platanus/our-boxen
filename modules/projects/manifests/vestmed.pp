@@ -3,7 +3,7 @@ class projects::vestmed {
   $version = "5.3.23"
   php::project { 'vestmed':
     dir           => "${boxen::config::srcdir}/vestmed/api",
-    source        => 'git@github.com:platanus-repos/vestmed-api.git',
+    source        => 'git@github.com:platanus/vestmed-api.git',
     nginx         => "projects/vestmed/nginx.conf.erb",
     php           => $version,
   }
