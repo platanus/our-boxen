@@ -1,5 +1,7 @@
 class projects::quehambre-web {
 
+  include java
+
   package {
     [
       'optipng',
