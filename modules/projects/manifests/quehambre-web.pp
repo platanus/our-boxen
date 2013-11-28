@@ -1,6 +1,11 @@
 class projects::quehambre-web {
 
-  package { 'optipng': }
+  package {
+    [
+      'optipng',
+      'ant'
+    ]
+  }
 
   # Add ant dependencies for publish via ssh
   $ant_lib_path = "/Users/${::boxen_user}/.ant/lib"
