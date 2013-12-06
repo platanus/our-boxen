@@ -14,6 +14,11 @@ class platanus::environment{
     node_version => $node_global,
   }
 
+  nodejs::module { "grunt-cli for ${node_global}":
+    module  => 'grunt-cli',
+    node_version => $node_global,
+  }
+
   # Ruby
   include ruby::1_9_3_p125
   include ruby::1_9_3_p392
