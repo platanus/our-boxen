@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.3.5)
+    boxen (3.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -41,12 +41,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.1.1)
+    dropbox (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-eclipse
   specs:
-    eclipse (2.1.0)
+    eclipse (2.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -71,12 +71,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
-    heroku (2.0.0)
+    heroku (2.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hipchat
   specs:
-    hipchat (1.0.8)
+    hipchat (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
-    iterm2 (1.0.3)
+    iterm2 (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-java
@@ -116,7 +116,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
   specs:
-    mongodb (1.0.4)
+    mongodb (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-mumble
@@ -126,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
-    mysql (1.1.3)
+    mysql (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.0.2)
+    phantomjs (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-php
@@ -171,7 +171,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
-    postgresql (2.0.1)
+    postgresql (2.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-property_list_key
@@ -196,12 +196,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
   specs:
-    sequel_pro (1.0.0)
+    sequel_pro (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-shortcat
   specs:
-    shortcat (1.0.5)
+    shortcat (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-skydrive
@@ -211,7 +211,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.3)
+    skype (1.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-spectacle
@@ -236,7 +236,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-textual
   specs:
-    textual (3.1.0)
+    textual (3.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-tmux
@@ -251,17 +251,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.9)
+    vagrant (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.5)
+    virtualbox (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
-    vlc (1.0.3)
+    vlc (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-wget
@@ -292,58 +292,58 @@ DEPENDENCIES
   android (= 1.0.0)
   autoconf (= 1.0.0)
   better_touch_tools (= 1.0.0)
-  boxen (= 3.3.5)
+  boxen (= 3.3.4)
   caffeine (= 1.0.0)
   chrome (= 1.1.2)
   clipmenu (= 1.0.0)
   dnsmasq (= 1.0.1)
-  dropbox (= 1.1.1)
-  eclipse (= 2.1.0)
+  dropbox (= 1.2.0)
+  eclipse (= 2.2.0)
   firefox (= 1.1.5)
   gcc (= 2.0.1)
   git (= 1.3.6)
   googledrive (= 1.0.2)
-  heroku (= 2.0.0)
-  hipchat (= 1.0.8)
+  heroku (= 2.1.1)
+  hipchat (= 1.1.0)
   homebrew (= 1.6.0)
   hub (= 1.2.0)
   imagemagick (= 1.2.1)
   inifile (= 1.0.0)
-  iterm2 (= 1.0.3)
+  iterm2 (= 1.0.6)
   java (= 1.1.2)
   libpng (= 1.0.0)
   libtool (= 1.0.0)
-  mongodb (= 1.0.4)
+  mongodb (= 1.2.0)
   mumble (= 1.0.5)
-  mysql (= 1.1.3)
+  mysql (= 1.2.0)
   nginx (= 1.4.3)
   nodejs (= 3.5.0)
   openssl (= 1.0.0)
   osx (= 2.2.0)
   pcre (= 1.0.0)
-  phantomjs (= 2.0.2)
+  phantomjs (= 2.1.0)
   php (= 1.1.4)
   pkgconfig (= 1.0.0)
-  postgresql (= 2.0.1)
+  postgresql (= 2.2.2)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.7.5)
   screenhero (= 1.0.1)
-  sequel_pro (= 1.0.0)
-  shortcat (= 1.0.5)
+  sequel_pro (= 1.0.1)
+  shortcat (= 1.0.6)
   skydrive (= 1.0.1)
-  skype (= 1.0.3)
+  skype (= 1.0.7)
   spectacle (= 1.0.0)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
-  textual (= 3.1.0)
+  textual (= 3.2.3)
   tmux (= 1.0.2)
   toggl (= 1.0.2)
-  vagrant (= 2.0.9)
-  virtualbox (= 1.0.5)
-  vlc (= 1.0.3)
+  vagrant (= 3.0.0)
+  virtualbox (= 1.0.9)
+  vlc (= 1.0.5)
   wget (= 1.0.0)
   xquartz (= 1.1.1)
   zsh (= 1.0.0)
