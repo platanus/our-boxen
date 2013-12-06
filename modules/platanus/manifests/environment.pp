@@ -29,6 +29,7 @@ class platanus::environment{
 
   # Services
   include mysql
+  include postgresql
 
   # Applications
   include chrome
