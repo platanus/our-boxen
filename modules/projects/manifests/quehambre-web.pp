@@ -6,7 +6,7 @@ class projects::quehambre-web {
     [
       'optipng',
       'ant'
-    ]
+    ]:
   }
 
   # Add ant dependencies for publish via ssh
