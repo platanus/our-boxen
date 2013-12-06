@@ -87,7 +87,7 @@ github "clipmenu", "1.0.0"
 github "hipchat",         "1.0.8"
 
 ## PHP module
-github "php", 					"1.1.1"
+github "php", 					"1.1.4"
 github "wget",					"1.0.0"
 github "libtool", 				"1.0.0"
 github "pkgconfig",				"1.0.0"
