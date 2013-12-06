@@ -4,7 +4,6 @@ class projects::quehambre-mobile {
   include java
   include android::sdk
   include android::platform_tools
-  include android::studio
 
   # Install Froyo 2.2.x
   android::version { '8':
