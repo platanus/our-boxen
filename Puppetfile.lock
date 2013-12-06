@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
-    android (1.0.0)
+    android (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-autoconf
@@ -289,7 +289,7 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
-  android (= 1.0.0)
+  android (= 1.1.0)
   autoconf (= 1.0.0)
   better_touch_tools (= 1.0.0)
   boxen (= 3.3.4)
