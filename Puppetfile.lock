@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
-    chrome (1.1.1)
+    chrome (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-clipmenu
@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.1)
+    firefox (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -294,12 +294,12 @@ DEPENDENCIES
   better_touch_tools (= 1.0.0)
   boxen (= 3.3.5)
   caffeine (= 1.0.0)
-  chrome (= 1.1.1)
+  chrome (= 1.1.2)
   clipmenu (= 1.0.0)
   dnsmasq (= 1.0.1)
   dropbox (= 1.1.1)
   eclipse (= 2.1.0)
-  firefox (= 1.1.1)
+  firefox (= 1.1.5)
   gcc (= 2.0.1)
   git (= 1.3.6)
   googledrive (= 1.0.2)
