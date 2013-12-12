@@ -3,6 +3,7 @@ class people::iobaixas {
 	include virtualbox
 	include zsh
 	include clipmenu
+  	include iterm2::stable
 
 	# Osx config
   	# include people::iobaixas::osx
