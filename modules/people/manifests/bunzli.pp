@@ -2,6 +2,7 @@ class people::bunzli {
   include virtualbox
   include imagemagick
   include postgresql
+  include dropbox
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"

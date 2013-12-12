@@ -1,5 +1,7 @@
 class people::iobaixas {
 
+  include dropbox
+
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"

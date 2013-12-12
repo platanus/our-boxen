@@ -2,6 +2,7 @@ class people::agustinf {
   include googledrive
   include textual
   include better_touch_tools
+  include dropbox
 
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',

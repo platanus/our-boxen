@@ -9,6 +9,7 @@ class people::aarellano {
 	include shortcat
 	include iterm2::stable
 	include clipmenu
+  	include dropbox
 
   # Osx config
   include people::aarellano::osx

@@ -2,6 +2,7 @@ class people::emilioeduardob {
   include textual
   include imagemagick
   include postgresql
+  include dropbox
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
