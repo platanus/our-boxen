@@ -3,6 +3,7 @@ class people::bunzli {
   include imagemagick
   include postgresql
   include dropbox
+  include clipmenu
 
   package { 'chromedriver': }  
 }
