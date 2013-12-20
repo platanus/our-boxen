@@ -3,6 +3,7 @@ class people::agustinf {
   include textual
   include better_touch_tools
   include dropbox
+  include iterm2::stable
 
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
