@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.1.7)
+
+GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (1.1.0)
@@ -289,6 +294,7 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  alfred (= 1.1.7)
   android (= 1.1.0)
   autoconf (= 1.0.0)
   better_touch_tools (= 1.0.0)

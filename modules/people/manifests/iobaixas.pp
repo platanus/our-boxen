@@ -1,8 +1,11 @@
 class people::iobaixas {
 
 	include virtualbox
+	include alfred
+	include java
 	include zsh
 	include clipmenu
+  	include googledrive
   	include iterm2::stable
 
 	# Osx config

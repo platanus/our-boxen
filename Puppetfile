@@ -53,6 +53,7 @@ github "xquartz",    "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "alfred",          "1.1.7"
 github "chrome",   				"1.1.2"
 github "firefox", 				"1.1.5"
 github "sublime_text_2",    	"1.1.2"
