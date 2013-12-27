@@ -28,7 +28,7 @@ class platanus::environment{
   class { 'ruby::global': version => $ruby_global }
 
   ruby::plugin { 'rbenv-vars':
-    ensure => 'v1.2.0',
+    ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
     source  => 'sstephenson/rbenv-vars'
   }
 
