@@ -48,7 +48,6 @@ class platanus::environment{
   include sequel_pro
 
   # Communication
-  include skype
   include screenhero
   include hipchat
 
