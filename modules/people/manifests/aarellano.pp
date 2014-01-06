@@ -82,4 +82,10 @@ class people::aarellano {
 		target => "${dotfiles_dir}/.pythonrc",
 		require => Repository[$dotfiles_dir]
 	}
+
+	file { "${home}/.railsrc":
+		ensure => link,
+		target => "${dotfiles_dir}/.railsrc",
+		require => Repository[$dotfiles_dir]
+	}
 }
