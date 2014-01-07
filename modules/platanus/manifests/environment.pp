@@ -38,7 +38,6 @@ class platanus::environment{
 
   # Applications
   include chrome
-  include firefox
   include toggl
 
   # Development Tools
