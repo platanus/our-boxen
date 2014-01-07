@@ -1,7 +1,6 @@
 class platanus::environment{
 
   # Global versions
-  $ruby_global = '2.0.0-p195'
   $node_global = 'v0.10.3'
 
   # Node
@@ -20,13 +19,22 @@ class platanus::environment{
     ensure => '0.1.11'
   }
 
-  # Ruby
-  include ruby::1_9_3_p125
-  include ruby::1_9_3_p392
-  include ruby::2_0_0_p0
-  include ruby::2_0_0_p195
-  include ruby::2_0_0_p247
-  class { 'ruby::global': version => $ruby_global }
+  # Ruby and gems
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
+
+  ruby::gem { 'rails for 2.0.0':
+    gem => 'rails',
+    ruby => '2.0.0'
+  }
+
+  ruby::gem { 'bundler for 2.0.0':
+    gem => 'bundler',
+    ruby => '2.0.0'
+  }
+
+  ruby::version { '1.9.3-p484': }
 
   ruby::plugin { 'rbenv-vars':
     ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
