@@ -1,7 +1,5 @@
 class people::aarellano::osx {
 
-  osx::recovery_message { 'If you find this computer, please reach me at andres.arellano@gmail.com Thanks!': }
-
   include osx::global::disable_key_press_and_hold
   include osx::global::enable_keyboard_control_access
   include osx::global::expand_print_dialog

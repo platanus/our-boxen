@@ -2,11 +2,7 @@ class people::aarellano {
 
   case $::hostname {
     'nomade': {
-      notify { "I'm a Macbook Air": }
-    }
-
-    'lacruz': {
-      notify { "I'm an iMac": }
+      osx::recovery_message { 'If you find this computer, please reach me at andres.arellano@gmail.com Thanks!': }
     }
 
     'default': {
