@@ -34,6 +34,12 @@ class platanus::environment{
     ruby => '2.0.0'
   }
 
+  ruby::gem { 'negroku for 2.0.0':
+    gem     => 'negroku',
+    ruby    => '2.0.0',
+    version => '~> 1.1.4'
+  }
+
   ruby::version { '1.9.3-p484': }
 
   ruby::plugin { 'rbenv-vars':
@@ -58,9 +64,5 @@ class platanus::environment{
   # Communication
   include screenhero
   include hipchat
-
-  # App deployment
-  include heroku
-  include negroku
 
 }
