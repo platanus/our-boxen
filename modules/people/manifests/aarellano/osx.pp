@@ -4,8 +4,6 @@ class people::aarellano::osx {
   include osx::global::enable_keyboard_control_access
   include osx::global::expand_print_dialog
   include osx::global::expand_save_dialog
-  include osx::global::key_repeat_delay
-  include osx::global::key_repeat_rate
   include osx::global::disable_autocorrect
 
   include osx::dock::autohide
