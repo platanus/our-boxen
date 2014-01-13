@@ -93,4 +93,10 @@ class people::aarellano {
     target => "${dotfiles_dir}/.railsrc",
     require => Repository[$dotfiles_dir]
   }
+
+  file { "${home}/.ssh/config":
+    ensure => link,
+    target => "${dotfiles_dir}/.ssh/config",
+    require => Repository[$dotfiles_dir]
+  }
 }
