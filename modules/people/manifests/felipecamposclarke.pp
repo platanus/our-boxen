@@ -1,6 +1,7 @@
 class people::felipecamposclarke {
   include googledrive
   include dropbox
+  include postgresql
 
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
