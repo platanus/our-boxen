@@ -35,7 +35,7 @@ server {
   access_log <%= scope.lookupvar "nginx::config::logdir" %>/<%= @name %>.access.log main;
   listen 80;
   root <%= @repo_dir %>/src;
-  server_name www.quehambre.dev www.quehambre.local www.quehambre.cl;
+  server_name www.quehambre.dev www.quehambre.local www.quehambre.cl canisio.quehambre.cl;
 
   client_max_body_size 50M;
 
@@ -46,7 +46,7 @@ server {
     try_files $uri $uri/ /index.php$is_args$args;
   }
 
-  location ~ \.php$ {
+  location ~ (?<!printer|callback)\.php$ {
     include <%= scope.lookupvar "nginx::config::configdir" %>/fastcgi_params;
     fastcgi_pass php;
     fastcgi_param SCRIPT_FILENAME <%= @repo_dir %>/src/index.php;
