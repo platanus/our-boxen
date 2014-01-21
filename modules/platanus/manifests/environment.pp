@@ -40,8 +40,6 @@ class platanus::environment{
     version => '~> 1.1.4'
   }
 
-  ruby::version { '1.9.3-p484': }
-
   ruby::plugin { 'rbenv-vars':
     ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
     source  => 'sstephenson/rbenv-vars'
