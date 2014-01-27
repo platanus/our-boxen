@@ -4,7 +4,8 @@ class people::agustinf {
   include better_touch_tools
   include dropbox
   include iterm2::stable
-
+  include wkhtmltopdf
+  
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
     provider => 'pkgdmg'

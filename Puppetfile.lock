@@ -274,6 +274,11 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-wkhtmltopdf
+  specs:
+    wkhtmltopdf (1.2.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
@@ -351,6 +356,7 @@ DEPENDENCIES
   virtualbox (= 1.0.9)
   vlc (= 1.0.5)
   wget (= 1.0.0)
+  wkhtmltopdf (= 1.2.1)
   xquartz (= 1.1.1)
   zsh (= 1.0.0)
 

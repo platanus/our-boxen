@@ -100,3 +100,6 @@ github "mumble",				"1.0.5"
 ## postgresql
 github "sysctl",              	"1.0.0"
 github "postgresql",			"2.2.2"
+
+#wkhtmltopdf
+github "wkhtmltopdf", "1.2.1"
