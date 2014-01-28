@@ -1,14 +1,6 @@
 class people::aarellano {
 
-  case $::hostname {
-    'nomade': {
-      osx::recovery_message { 'If you find this computer, please reach me at andres.arellano@gmail.com Thanks!': }
-    }
-
-    default: {
-      notify { "Who is this guy?": }
-    }
-  }
+  osx::recovery_message { 'If you find this computer, please reach me at andres.arellano@gmail.com Thanks!': }
 
   include textual
   include zsh
