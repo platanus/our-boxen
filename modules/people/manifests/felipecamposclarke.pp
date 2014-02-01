@@ -3,6 +3,11 @@ class people::felipecamposclarke {
   include dropbox
   include postgresql
 
+  include sublime_text_2
+  sublime_text_2::package { 'EditorConfig':
+    source => 'sindresorhus/editorconfig-sublime'
+  }
+
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
     module  => 'yo',

@@ -5,8 +5,13 @@ class people::iobaixas {
 	include java
 	include zsh
 	include clipmenu
-  	include googledrive
-  	include iterm2::stable
+	include googledrive
+	include iterm2::stable
+
+  include sublime_text_2
+  sublime_text_2::package { 'EditorConfig':
+    source => 'sindresorhus/editorconfig-sublime'
+  }
 
 	# Osx config
   	# include people::iobaixas::osx
