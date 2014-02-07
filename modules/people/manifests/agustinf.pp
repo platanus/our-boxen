@@ -5,7 +5,9 @@ class people::agustinf {
   include dropbox
   include iterm2::stable
   include wkhtmltopdf
-  
+  include postgresql
+
+
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
     provider => 'pkgdmg'
