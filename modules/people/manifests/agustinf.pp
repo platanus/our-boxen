@@ -13,6 +13,11 @@ class people::agustinf {
     provider => 'pkgdmg'
   }
 
+  include sublime_text_2
+  sublime_text_2::package { 'EditorConfig':
+    source => 'sindresorhus/editorconfig-sublime'
+  }
+
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
