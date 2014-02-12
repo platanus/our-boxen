@@ -1,4 +1,7 @@
 class people::agustinf {
+
+  osx::recovery_message { 'If you find this computer, please reach me at agustin@platan.us Thanks!': }
+
   include googledrive
   include textual
   include better_touch_tools
@@ -6,6 +9,9 @@ class people::agustinf {
   include iterm2::stable
   include wkhtmltopdf
   include postgresql
+  include clipmenu
+  include imagemagick
+
 
 
   package { 'pandoc':
@@ -13,10 +19,19 @@ class people::agustinf {
     provider => 'pkgdmg'
   }
 
+  sublime_text_2::package { 'Package Control':
+    source => 'wbond/sublime_package_control'
+  }
+
   include sublime_text_2
   sublime_text_2::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
   }
+
+   sublime_text_2::package { 'GitGutter':
+    source => 'jisaacks/GitGutter'
+  }
+
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
