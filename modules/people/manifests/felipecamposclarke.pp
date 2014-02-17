@@ -2,6 +2,7 @@ class people::felipecamposclarke {
   include googledrive
   include dropbox
   include postgresql
+  include iterm2::stable
 
   include sublime_text_2
   sublime_text_2::package { 'EditorConfig':
