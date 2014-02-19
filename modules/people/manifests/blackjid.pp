@@ -22,6 +22,7 @@ class people::blackjid {
   nodejs::module { 'yo for v0.10.3':
     module  => 'yo',
     node_version => 'v0.10.3',
+    ensure => '1.1.2'
   }
 
   # Osx config
