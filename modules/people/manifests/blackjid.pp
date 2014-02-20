@@ -20,6 +20,17 @@ class people::blackjid {
     ensure => '1.1.2'
   }
 
+  include sublime_text_3
+  include sublime_text_3::package_control
+
+  sublime_text_3::package { 'EditorConfig':
+    source => 'sindresorhus/editorconfig-sublime'
+  }
+
+  sublime_text_3::package { 'GitGutter':
+    source => 'jisaacks/GitGutter'
+  }
+
   # Osx config
   include people::blackjid::osx
 
