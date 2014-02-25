@@ -12,6 +12,7 @@ class people::blackjid {
   include caffeine
   include dropbox
   include skype
+  include pow
 
   # Yeoman tools
   nodejs::module { 'yo for v0.10.3':
