@@ -24,6 +24,4 @@ class people::bunzli {
 
   #include projects::all
 
-  package { 'chromedriver': }
-
 }
