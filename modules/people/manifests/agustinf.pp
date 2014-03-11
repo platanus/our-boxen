@@ -1,18 +1,13 @@
 class people::agustinf {
 
-  osx::recovery_message { 'If you find this computer, please reach me at agustin@platan.us Thanks!': }
-
   include googledrive
   include textual
   include better_touch_tools
   include dropbox
   include iterm2::stable
-  include wkhtmltopdf
   include postgresql
   include clipmenu
-  include imagemagick
-
-
+  include wunderlist
 
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
@@ -32,15 +27,11 @@ class people::agustinf {
     source => 'jisaacks/GitGutter'
   }
 
+  # Osx config
+  include people::agustinf::osx
 
-  $home     = "/Users/${::luser}"
-  $my       = "${home}/my"
-  $dotfiles = "${my}/dotfiles"
-
-  #repository { $dotfiles:
-  #  source  => 'agustin/dotfiles',
-  #  require => File[$my]
-  #}
+  # Dotfiles
+  include people::agustinf::dotfiles
 
   #include projects::all
 }
