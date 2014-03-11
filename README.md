@@ -37,6 +37,14 @@ MacVim.
 
 How do you do it?
 
+#### OS X 10.9 (Mavericks)
+
+If you are using [`b26abd0` of boxen-web](https://github.com/boxen/boxen-web/commit/b26abd0d681129eba0b5f46ed43110d873d8fdc2)
+or newer, it will be automatically installed as part of Boxen.
+Otherwise, follow instructions below.
+
+#### OS X < 10.9
+
 1. Install Xcode from the Mac App Store.
 1. Open Xcode.
 1. Open the Preferences window (`Cmd-,`).
@@ -45,7 +53,7 @@ How do you do it?
 
 ### Bootstrapping
 
-Create a **new** git repository somewhere.
+Create a **new** git repository somewhere on the internet.
 It can be private or public -- it really doesn't matter.
 If you're making a repository on GitHub, you _may not_ want to fork this repo
 to get started.
@@ -65,6 +73,18 @@ git remote add origin <the location of my new git repository>
 git push -u origin master
 ```
 
+Now that your boxen is bootstrapped, you can run the following to
+install the default configuration from this repo:
+
+```
+cd /opt/boxen/repo
+./script/boxen
+```
+
+You can also skip the above steps and <a href="#customizing">customize your
+boxen</a> before installing it.
+
+
 ### Distributing
 
 That's enough to get your boxen into a usable state on other machines,
@@ -80,14 +100,14 @@ sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
 git clone <location of my new git repository> /opt/boxen/repo
 cd /opt/boxen/repo
-script/boxen
+./script/boxen
 ```
 
 Keep in mind this requires you to encrypt your hard drive by default.
 If you do not want to do encrypt your hard drive, you can use the `--no-fde`.
 
 ```
-script/boxen --no-fde
+./script/boxen --no-fde
 ```
 
 It should run successfully, and should tell you to source a shell script
@@ -115,12 +135,13 @@ This template project provides the following by default:
 * dnsmasq w/ .dev resolver for localhost
 * rbenv
 * Full Disk Encryption requirement
-* Node.js 0.4
 * Node.js 0.6
 * Node.js 0.8
+* Node.js 0.10
 * Ruby 1.8.7
 * Ruby 1.9.2
 * Ruby 1.9.3
+* Ruby 2.0.0
 * ack
 * Findutils
 * GNU tar
@@ -217,7 +238,7 @@ everyone by default. An example of this might look like so:
 
    include projects::super-top-secret-project
  }
- ```
+```
 
  If you'd like to read more about how Puppet works, we recommend
  checking out [the official documentation](http://docs.puppetlabs.com/)
@@ -261,8 +282,8 @@ It'll just be listed under the boxen org so folks can find it more easily.
 ## Integrating with Github Enterprise
 
 If you're using a Github Enterprise instance rather than github.com,
-you will need to set the "BOXEN_GITHUB_ENTERPRISE_URL" and
-"BOXEN_REPO_URL_TEMPLATE" variables in your
+you will need to set the `BOXEN_GITHUB_ENTERPRISE_URL` and
+`BOXEN_REPO_URL_TEMPLATE` variables in your
 [Boxen config](config/boxen.rb).
 
 ## Halp!

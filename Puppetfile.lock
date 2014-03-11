@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: blackjid/puppet-pow
+  specs:
+    pow (2.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
     alfred (1.1.7)
@@ -289,6 +294,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: jozefizso/puppet-sublime_text_3
+  specs:
+    sublime_text_3 (1.0.2)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -336,6 +346,7 @@ DEPENDENCIES
   php (= 1.1.4)
   pkgconfig (= 1.0.0)
   postgresql (= 2.2.2)
+  pow (= 2.0.2)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.7.5)
@@ -347,6 +358,7 @@ DEPENDENCIES
   spectacle (= 1.0.0)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
+  sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   textual (= 3.2.3)
