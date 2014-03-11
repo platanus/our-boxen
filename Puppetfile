@@ -88,6 +88,7 @@ github "shortcat",              "1.0.6"
 github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.0"
 github "pow",                   "2.0.2", :repo => "blackjid/puppet-pow"
+github "wunderlist",            "1.0.0"
 
 ## PHP module
 github "php",                   "1.1.4"
