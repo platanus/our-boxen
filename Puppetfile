@@ -48,7 +48,7 @@ github "repository", "2.2.0"
 github "ruby",       "6.7.5"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
-github "xquartz",    "1.1.1"
+github "xquartz",    "1.1.2", :repo => "platanus/puppet-xquartz"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -87,7 +87,7 @@ github "phantomjs",             "2.1.0"
 github "shortcat",              "1.0.6"
 github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.0"
-github "pow",                   "2.0.2", :repo => "blackjid/puppet-pow"
+github "pow",                   "2.0.3", :repo => "blackjid/puppet-pow"
 github "wunderlist",            "1.0.0"
 
 ## PHP module

@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: blackjid/puppet-pow
   specs:
-    pow (2.0.2)
+    pow (2.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-alfred
@@ -256,7 +256,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-toggl
   specs:
-    toggl (1.0.2)
+    toggl (1.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -284,9 +284,9 @@ GITHUBTARBALL
     wkhtmltopdf (1.2.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
+  remote: boxen/puppet-wunderlist
   specs:
-    xquartz (1.1.1)
+    wunderlist (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-zsh
@@ -297,6 +297,11 @@ GITHUBTARBALL
   remote: jozefizso/puppet-sublime_text_3
   specs:
     sublime_text_3 (1.0.2)
+
+GITHUBTARBALL
+  remote: platanus/puppet-xquartz
+  specs:
+    xquartz (1.1.2)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -346,7 +351,7 @@ DEPENDENCIES
   php (= 1.1.4)
   pkgconfig (= 1.0.0)
   postgresql (= 2.2.2)
-  pow (= 2.0.2)
+  pow (= 2.0.3)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.7.5)
@@ -363,12 +368,13 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   textual (= 3.2.3)
   tmux (= 1.0.2)
-  toggl (= 1.0.2)
+  toggl (= 1.0.4)
   vagrant (= 3.0.0)
   virtualbox (= 1.0.9)
   vlc (= 1.0.5)
   wget (= 1.0.0)
   wkhtmltopdf (= 1.2.1)
-  xquartz (= 1.1.1)
+  wunderlist (= 1.0.0)
+  xquartz (= 1.1.2)
   zsh (= 1.0.0)
 
