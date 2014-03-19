@@ -8,6 +8,7 @@ class people::agustinf {
   include postgresql
   include clipmenu
   include wunderlist
+  include spotify
 
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',

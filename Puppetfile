@@ -90,6 +90,7 @@ github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.0"
 github "pow",                   "2.0.3", :repo => "blackjid/puppet-pow"
 github "wunderlist",            "1.0.0"
+github "spotify",               "1.0.1"
 
 ## PHP module
 github "php",                   "1.1.4"

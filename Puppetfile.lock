@@ -229,6 +229,11 @@ GITHUBTARBALL
     spectacle (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.2)
@@ -367,6 +372,7 @@ DEPENDENCIES
   skydrive (= 1.0.1)
   skype (= 1.0.7)
   spectacle (= 1.0.0)
+  spotify (= 1.0.1)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sublime_text_3 (= 1.0.2)
