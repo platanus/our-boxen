@@ -10,7 +10,7 @@ class platanus::environment{
   nodejs::module { "bower for ${node_global}":
     module  => 'bower',
     node_version => $node_global,
-    ensure => '1.2.8'
+    ensure => '1.3.1'
   }
 
   nodejs::module { "grunt-cli for ${node_global}":
