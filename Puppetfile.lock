@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: blackjid/puppet-pow
-  specs:
-    pow (2.0.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
     alfred (1.1.7)
@@ -184,6 +179,11 @@ GITHUBTARBALL
     postgresql (2.2.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pow
+  specs:
+    pow (2.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-property_list_key
   specs:
     property_list_key (0.1.0)
@@ -362,7 +362,7 @@ DEPENDENCIES
   php (= 1.1.4)
   pkgconfig (= 1.0.0)
   postgresql (= 2.2.2)
-  pow (= 2.0.3)
+  pow (= 2.0.0)
   property_list_key (= 0.1.0)
   repository (= 2.3.0)
   ruby (= 7.1.6)
