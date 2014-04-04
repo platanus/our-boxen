@@ -81,6 +81,16 @@ cd /opt/boxen/repo
 ./script/boxen
 ```
 
+**Note**
+If you are creating a fresh install on Xcode 5.1 there is a clang issue with
+certain Ruby Gems. There is a Stackoverflow post [here](http://stackoverflow.com/questions/22352838/ruby-gem-install-json-fails-on-mavericks-and-xcode-5-1-unknown-argument-mul)
+
+To run the Boxen script follow these instructions
+```
+cd /opt/boxen/repo
+ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen
+```
+
 You can also skip the above steps and <a href="#customizing">customize your
 boxen</a> before installing it.
 
@@ -138,10 +148,10 @@ This template project provides the following by default:
 * Node.js 0.6
 * Node.js 0.8
 * Node.js 0.10
-* Ruby 1.8.7
-* Ruby 1.9.2
 * Ruby 1.9.3
 * Ruby 2.0.0
+* Ruby 2.1.0
+* Ruby 2.1.1
 * ack
 * Findutils
 * GNU tar
@@ -196,6 +206,32 @@ Now Puppet knows where to download the module from when you include it in your s
     # include the java module referenced in my Puppetfile with the line
     # github "java",     "1.1.0"
     include java
+
+### Hiera
+
+Hiera is preferred mechanism to make changes to module defaults (e.g. default
+global ruby version, service ports, etc). This repository supplies a
+starting point for your Hiera configuration at `config/hiera.yml`, and an
+example data file at `hiera/common.yaml`. See those files for more details.
+
+The default `config/hiera.yml` is configured with a hierarchy that allows
+individuals to have their own hiera data file in
+`hiera/users/{github_login}.yaml` which augments and overrides
+site-wide values in `hiera/common.yaml`. This default is, as with most of the
+configuration in the example repo, a great starting point for many
+organisations, but is totally up to you. You might want to, for
+example, have a set of values that can't be overridden by adding a file to
+the top of the hierarchy, or to have values set on specific OS
+versions:
+
+```yaml
+# ...
+:hierarchy:
+  - "global-overrides.yaml"
+  - "users/%{::github_login}"
+  - "osx-%{::macosx_productversion_major}"
+  - common
+```
 
 ### Node definitions
 
