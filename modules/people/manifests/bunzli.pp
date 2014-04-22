@@ -4,6 +4,7 @@ class people::bunzli {
   include postgresql
   include dropbox
   include clipmenu
+  include spectacle
 
 
   package { 'chromedriver': }
