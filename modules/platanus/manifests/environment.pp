@@ -55,6 +55,7 @@ class platanus::environment{
 
   # Development Tools
   include sequel_pro
+  package { 'chromedriver': }
 
   # Communication
   include screenhero
