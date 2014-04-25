@@ -5,7 +5,9 @@ class people::bunzli {
   include dropbox
   include clipmenu
   include spectacle
-
+  class {'pow':
+    domains => 'pow, xip.io',
+  }
 
   package { 'chromedriver': }
 
