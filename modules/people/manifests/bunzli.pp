@@ -4,9 +4,10 @@ class people::bunzli {
   include postgresql
   include dropbox
   include clipmenu
-
-
-  package { 'chromedriver': }
+  include spectacle
+  class {'pow':
+    domains => 'pow, xip.io',
+  }
 
   include sublime_text_2
   sublime_text_2::package { 'EditorConfig':

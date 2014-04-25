@@ -9,6 +9,9 @@ class people::agustinf {
   include clipmenu
   include wunderlist
   include spotify
+  class {'pow':
+    domains => 'pow, xip.io',
+  }
 
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
