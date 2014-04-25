@@ -9,8 +9,6 @@ class people::bunzli {
     domains => 'pow, xip.io',
   }
 
-  package { 'chromedriver': }
-
   include sublime_text_2
   sublime_text_2::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
