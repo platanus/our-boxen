@@ -9,6 +9,10 @@ class people::iobaixas {
   	include iterm2::stable
 	include sublime_text_2
 
+	class { 'pow':
+		domains => 'pow'
+	}
+
 	# Osx config
   	# include people::iobaixas::osx
 
