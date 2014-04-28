@@ -12,6 +12,8 @@ class people::agustinf {
   class {'pow':
     domains => 'pow, xip.io',
   }
+  include imagemagick
+
 
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
