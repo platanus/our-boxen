@@ -6,7 +6,7 @@ class people::bunzli {
   include clipmenu
   include spectacle
   class {'pow':
-    domains => 'pow, xip.io',
+    domains => 'pow,xip.io',
   }
 
   include sublime_text_2
