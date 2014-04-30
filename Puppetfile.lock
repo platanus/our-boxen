@@ -161,7 +161,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.1.0)
+    phantomjs (2.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-php
@@ -358,7 +358,7 @@ DEPENDENCIES
   openssl (= 1.0.0)
   osx (= 2.2.2)
   pcre (= 1.0.0)
-  phantomjs (= 2.1.0)
+  phantomjs (= 2.3.0)
   php (= 1.1.4)
   pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
