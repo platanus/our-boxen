@@ -107,7 +107,7 @@ github "caffeine",              "1.0.0"
 github "mumble",                "1.0.5"
 
 ## postgresql
-github "sysctl",                "1.0.0"
+github "sysctl",                "1.0.1"
 github "postgresql",            "3.0.1"
 
 #wkhtmltopdf

@@ -246,7 +246,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-sysctl
   specs:
-    sysctl (1.0.0)
+    sysctl (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-textual
@@ -378,7 +378,7 @@ DEPENDENCIES
   sublime_text_2 (= 1.1.2)
   sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
-  sysctl (= 1.0.0)
+  sysctl (= 1.0.1)
   textual (= 3.2.3)
   tmux (= 1.0.2)
   toggl (= 1.0.4)
