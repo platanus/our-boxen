@@ -281,7 +281,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
-    wget (1.0.0)
+    wget (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-wkhtmltopdf
@@ -385,7 +385,7 @@ DEPENDENCIES
   vagrant (= 3.0.7)
   virtualbox (= 1.0.9)
   vlc (= 1.1.0)
-  wget (= 1.0.0)
+  wget (= 1.0.1)
   wkhtmltopdf (= 1.2.1)
   wunderlist (= 1.0.0)
   xquartz (= 1.1.1)
