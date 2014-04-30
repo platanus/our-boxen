@@ -121,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-mongodb
   specs:
-    mongodb (1.2.0)
+    mongodb (2.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-mumble
@@ -350,7 +350,7 @@ DEPENDENCIES
   libpng (= 1.0.0)
   libtool (= 1.0.0)
   module-data (= 0.0.3)
-  mongodb (= 1.2.0)
+  mongodb (= 2.6.1)
   mumble (= 1.0.5)
   mysql (= 1.2.0)
   nginx (= 1.4.3)
