@@ -97,7 +97,7 @@ github "wunderlist",            "1.0.0"
 github "spotify",               "1.0.1"
 
 ## PHP module
-github "php",                   "1.2.0"
+github "php",                   "1.2.1"
 github "wget",                  "1.0.1"
 github "libtool",               "1.0.0"
 github "pkgconfig",             "1.0.0"
