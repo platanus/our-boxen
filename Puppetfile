@@ -92,7 +92,7 @@ github "phantomjs",             "2.3.0"
 github "shortcat",              "1.0.6"
 github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.1"
-github "pow",                   "2.0.1"
+github "pow",                   "2.0.3"
 github "wunderlist",            "1.0.0"
 github "spotify",               "1.0.1"
 
