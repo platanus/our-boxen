@@ -3,6 +3,9 @@ class people::felipecamposclarke {
   include dropbox
   include postgresql
   include iterm2::stable
+  class {'pow':
+    domains => 'pow,xip.io',
+  }
 
   include sublime_text_2
   sublime_text_2::package { 'EditorConfig':
