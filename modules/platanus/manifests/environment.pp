@@ -19,6 +19,11 @@ class platanus::environment{
     ensure => '0.1.11'
   }
 
+  nodejs::plugin { 'nodenv-vars':
+    ensure => 'master',
+    source => 'OiNutter/nodenv-vars'
+  }
+
   # Ruby and gems
   class { 'ruby::global':
     version => '2.0.0'
