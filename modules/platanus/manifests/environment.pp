@@ -4,7 +4,6 @@ class platanus::environment{
   $node_global = '0.10.26'
 
   # Node
-  include nodejs::0_10_3
   include nodejs::0_10_26
   class { 'nodejs::global': version => $node_global }
 
