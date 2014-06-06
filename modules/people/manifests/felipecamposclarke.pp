@@ -13,9 +13,9 @@ class people::felipecamposclarke {
   }
 
   # Yeoman tools
-  nodejs::module { 'yo for 0.10.3':
+  nodejs::module { 'yo for 0.10.28':
     module  => 'yo',
-    node_version => '0.10.3',
+    node_version => '0.10.28',
   }
 
   $home     = "/Users/${::luser}"
