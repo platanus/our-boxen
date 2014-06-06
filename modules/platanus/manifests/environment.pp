@@ -16,7 +16,7 @@ class platanus::environment{
   nodejs::module { "grunt-cli for ${node_global}":
     module  => 'grunt-cli',
     node_version => $node_global,
-    ensure => '0.1.11'
+    ensure => '0.1.13'
   }
 
   nodejs::plugin { 'nodenv-vars':
