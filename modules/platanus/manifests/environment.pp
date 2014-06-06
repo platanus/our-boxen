@@ -1,11 +1,11 @@
 class platanus::environment{
 
   # Global versions
-  $node_global = 'v0.10.26'
+  $node_global = '0.10.26'
 
   # Node
-  include nodejs::v0_10_3
-  include nodejs::v0_10_26
+  include nodejs::0_10_3
+  include nodejs::0_10_26
   class { 'nodejs::global': version => $node_global }
 
   nodejs::module { "bower for ${node_global}":

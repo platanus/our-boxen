@@ -16,9 +16,9 @@ class people::blackjid {
   include vagrant
 
   # Yeoman tools
-  nodejs::module { 'yo for v0.10.3':
+  nodejs::module { 'yo for 0.10.3':
     module  => 'yo',
-    node_version => 'v0.10.3',
+    node_version => '0.10.3',
     ensure => '1.1.2'
   }
 

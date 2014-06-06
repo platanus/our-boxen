@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/platanus/puppet-nodejs.git
+  ref: OiNutter
+  sha: 9b7e6ae0d24b06c447623c372a423aa4d6cb01f5
+  specs:
+    nodejs (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
@@ -137,11 +144,6 @@ GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (3.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -354,7 +356,7 @@ DEPENDENCIES
   mumble (= 1.0.5)
   mysql (= 1.2.0)
   nginx (= 1.4.3)
-  nodejs (= 3.7.0)
+  nodejs (>= 0)
   openssl (= 1.0.0)
   osx (= 2.4.0)
   pcre (= 1.0.0)

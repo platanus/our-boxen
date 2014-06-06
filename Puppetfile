@@ -46,7 +46,10 @@ github "homebrew",   "1.9.2"
 github "hub",        "1.3.0"
 github "inifile",    "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.3"
-github "nodejs",     "3.7.0"
+#github "nodejs",     "3.7.0"
+mod 'nodejs',
+  :git => "git://github.com/platanus/puppet-nodejs.git",
+  :ref => "OiNutter"
 github "openssl",    "1.0.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.3.0"
