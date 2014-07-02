@@ -9,9 +9,16 @@ class people::bunzli {
     domains => 'pow,xip.io',
   }
 
-  include sublime_text_2
-  sublime_text_2::package { 'EditorConfig':
+  # sublime 3
+  include sublime_text_3
+  include sublime_text_3::package_control
+
+  sublime_text_3::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
+  }
+
+  sublime_text_3::package { 'GitGutter':
+    source => 'jisaacks/GitGutter'
   }
 
   $home     = "/Users/${::luser}"
