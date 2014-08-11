@@ -62,7 +62,7 @@ github "xquartz",    "1.1.1"
 # https://github.com/boxen.
 
 github "alfred",                "1.1.8"
-github "chrome",                "1.1.2"
+github "chrome",                "1.1.3", :repo => "plasticine/puppet-chrome"
 github "firefox",               "1.1.9"
 github "sublime_text_2",        "1.1.2"
 github "sublime_text_3",        "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
