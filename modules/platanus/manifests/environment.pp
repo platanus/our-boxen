@@ -1,10 +1,9 @@
 class platanus::environment{
 
   # Global versions
-  $node_global = '0.10.28'
+  $node_global = '0.10'
 
   # Node
-  include nodejs::0_10_28
   class { 'nodejs::global': version => $node_global }
 
   nodejs::module { "bower for ${node_global}":
@@ -17,6 +16,12 @@ class platanus::environment{
     module  => 'grunt-cli',
     node_version => $node_global,
     ensure => '0.1.13'
+  }
+
+  nodejs::module { "gulp for ${node_global}":
+    module  => 'gulp',
+    node_version => $node_global,
+    ensure => '3.8.5'
   }
 
   nodejs::plugin { 'nodenv-vars':

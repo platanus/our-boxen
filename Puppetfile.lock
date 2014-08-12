@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/platanus/puppet-nodejs.git
   ref: OiNutter
-  sha: 9b7e6ae0d24b06c447623c372a423aa4d6cb01f5
+  sha: ec98e99433ce9b9e3331f705e310d0c1bae82b28
   specs:
     nodejs (0.0.1)
 

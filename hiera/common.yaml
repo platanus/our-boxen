@@ -1,2 +1,5 @@
 ---
 hub::protocol: ssh
+
+nodejs::version::alias:
+  0.10: 0.10.28

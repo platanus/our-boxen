@@ -19,9 +19,9 @@ class people::blackjid {
   }
 
   # Yeoman tools
-  nodejs::module { 'yo for 0.10.28':
+  nodejs::module { 'yo for 0.10':
     module  => 'yo',
-    node_version => '0.10.28',
+    node_version => '0.10',
     ensure => '1.1.2'
   }
 
