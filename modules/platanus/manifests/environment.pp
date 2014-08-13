@@ -33,27 +33,28 @@ class platanus::environment{
   class { 'ruby::global':
     version => '2.0.0'
   }
+  ruby::version { '1.9.3': }
 
-  ruby::gem { 'rails for 2.0.0':
-    gem => 'rails',
-    ruby => '2.0.0'
+  ruby_gem { 'rails for all rubies':
+    gem          => 'rails',
+    ruby_version => '*'
   }
 
-  ruby::gem { 'bundler for 2.0.0':
-    gem => 'bundler',
-    ruby => '2.0.0'
+  ruby_gem { 'bundler for all rubies':
+    gem          => 'bundler',
+    ruby_version => '*'
   }
 
-  ruby::gem { 'negroku for 2.0.0':
-    gem     => 'negroku',
-    ruby    => '2.0.0',
-    version => '~> 1.1.4'
+  ruby_gem { 'negroku for all rubies':
+    gem          => 'negroku',
+    ruby_version => '*',
+    version      => '~> 1.1.4'
   }
 
-  ruby::plugin { 'rbenv-vars':
-    ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
-    source  => 'sstephenson/rbenv-vars'
-  }
+  # ruby::plugin { 'rbenv-vars':
+  #   ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
+  #   source  => 'sstephenson/rbenv-vars'
+  # }
 
   # Services
   include mysql
