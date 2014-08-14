@@ -97,6 +97,8 @@ github "hipchat",               "1.1.3"
 github "pow",                   "2.1.0"
 github "wunderlist",            "1.0.0"
 github "spotify",               "1.0.1"
+github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
+
 
 ## PHP module
 github "php",                   "1.2.1"
