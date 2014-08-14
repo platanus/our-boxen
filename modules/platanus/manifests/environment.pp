@@ -9,19 +9,19 @@ class platanus::environment{
   nodejs::module { "bower for ${node_global}":
     module  => 'bower',
     node_version => $node_global,
-    ensure => '1.3.4'
+    ensure => '~1.3'
   }
 
   nodejs::module { "grunt-cli for ${node_global}":
     module  => 'grunt-cli',
     node_version => $node_global,
-    ensure => '0.1.13'
+    ensure => '~0.1'
   }
 
   nodejs::module { "gulp for ${node_global}":
     module  => 'gulp',
     node_version => $node_global,
-    ensure => '3.8.5'
+    ensure => '~3.8'
   }
 
   nodejs::plugin { 'nodenv-vars':
@@ -48,7 +48,7 @@ class platanus::environment{
   ruby_gem { 'negroku for all rubies':
     gem          => 'negroku',
     ruby_version => '*',
-    version      => '~> 1.1.4'
+    version      => '~> 1.1'
   }
 
   # ruby::plugin { 'rbenv-vars':
