@@ -156,6 +156,11 @@ GITHUBTARBALL
     pcre (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pgadmin3
+  specs:
+    pgadmin3 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -359,6 +364,7 @@ DEPENDENCIES
   openssl (= 1.0.0)
   osx (= 2.7.0)
   pcre (= 1.0.0)
+  pgadmin3 (= 1.0.0)
   phantomjs (= 2.3.0)
   php (= 1.2.1)
   pkgconfig (= 1.0.0)
