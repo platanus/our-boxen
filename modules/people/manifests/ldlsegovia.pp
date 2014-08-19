@@ -1,6 +1,8 @@
 class people::ldlsegovia {
 
   # Applications
+  include virtualbox
+  include clipmenu
   include zsh
   include prezto
   include iterm2::stable
