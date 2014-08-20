@@ -46,7 +46,7 @@ github "hub",        "1.3.0"
 github "inifile",    "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.3"
 #github "nodejs",     "3.7.0"
-mod 'nodejs',
+mod 'platnaus-nodejs',
   :git => "git://github.com/platanus/puppet-nodejs.git",
   :ref => "OiNutter"
 github "openssl",    "1.0.0"

@@ -3,7 +3,7 @@ GIT
   ref: OiNutter
   sha: ec98e99433ce9b9e3331f705e310d0c1bae82b28
   specs:
-    nodejs (0.0.1)
+    platnaus-nodejs (0.0.1)
 
 GITHUBTARBALL
   remote: archfear/puppet-prezto
@@ -360,7 +360,6 @@ DEPENDENCIES
   mumble (= 1.0.5)
   mysql (= 1.2.2)
   nginx (= 1.4.3)
-  nodejs (>= 0)
   openssl (= 1.0.0)
   osx (= 2.7.0)
   pcre (= 1.0.0)
@@ -369,6 +368,7 @@ DEPENDENCIES
   php (= 1.2.1)
   pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
+  platnaus-nodejs (>= 0)
   postgresql (= 3.0.1)
   pow (= 2.1.0)
   prezto (= 1.0.1)
