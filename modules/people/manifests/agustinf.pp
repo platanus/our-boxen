@@ -5,7 +5,6 @@ class people::agustinf {
   include better_touch_tools
   include dropbox
   include iterm2::stable
-  include postgresql
   include clipmenu
   include wunderlist
   include spotify

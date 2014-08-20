@@ -1,7 +1,6 @@
 class people::felipecamposclarke {
   include googledrive
   include dropbox
-  include postgresql
   include iterm2::stable
   class {'pow':
     domains => 'pow,xip.io',

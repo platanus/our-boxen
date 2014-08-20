@@ -1,7 +1,6 @@
 class people::emilioeduardob {
   include textual
   include imagemagick
-  include postgresql
   include dropbox
 
   include sublime_text_2
