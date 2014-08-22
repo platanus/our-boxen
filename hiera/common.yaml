@@ -8,5 +8,5 @@ ruby::provider: 'rbenv'
 ruby::rbenv::ensure: v0.4.0
 ruby::version::alias:
   1.9.3: 1.9.3-p484
-  2.0.0: 2.0.0-p451
+  2.0.0: 2.0.0-p481
   "2.1": 2.1.2
