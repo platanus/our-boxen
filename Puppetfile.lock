@@ -36,6 +36,11 @@ GITHUBTARBALL
     caffeine (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-clipmenu
   specs:
     clipmenu (1.0.0)
@@ -306,11 +311,6 @@ GITHUBTARBALL
     sublime_text_3 (1.0.3)
 
 GITHUBTARBALL
-  remote: plasticine/puppet-chrome
-  specs:
-    chrome (1.1.3)
-
-GITHUBTARBALL
   remote: platanus/puppet-mysql
   specs:
     mysql (1.3.0)
@@ -336,7 +336,7 @@ DEPENDENCIES
   better_touch_tools (= 1.0.0)
   boxen (= 3.6.2)
   caffeine (= 1.0.0)
-  chrome (= 1.1.3)
+  chrome (= 1.2.0)
   clipmenu (= 1.0.0)
   dnsmasq (= 1.0.1)
   dropbox (= 1.3.0)

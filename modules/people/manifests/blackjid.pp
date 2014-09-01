@@ -3,7 +3,7 @@ class people::blackjid {
   # Applications
   include zsh
   include iterm2::stable
-  include chrome::beta
+  include chrome
   include chrome::canary
   include googledrive
   include textual
