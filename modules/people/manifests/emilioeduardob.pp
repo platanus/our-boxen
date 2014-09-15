@@ -3,4 +3,6 @@ class people::emilioeduardob {
   include dropbox
   include zsh
   include iterm2::stable
+  include spectacle
+  include caffeine
 }
