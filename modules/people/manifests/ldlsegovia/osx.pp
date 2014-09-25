@@ -11,7 +11,6 @@ class people::ldlsegovia::osx {
     rate => 2
   }
   include osx::global::tap_to_click
-  include osx::global::natural_mouse_scrolling
 
   include osx::dock::autohide
   include osx::dock::clear_dock
