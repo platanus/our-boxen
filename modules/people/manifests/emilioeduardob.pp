@@ -1,4 +1,5 @@
 class people::emilioeduardob {
+  include googledrive
   include imagemagick
   include dropbox
   include zsh
