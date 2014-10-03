@@ -98,7 +98,7 @@ github "wunderlist",            "1.0.0"
 github "spotify",               "1.0.1"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
 github "pgadmin3",              "1.0.0"
-
+github "redis",                 "3.1.0"
 
 ## PHP module
 github "php",                   "1.2.1"

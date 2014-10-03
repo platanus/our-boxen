@@ -8,6 +8,8 @@ class people::agustinf {
   include clipmenu
   include wunderlist
   include spotify
+  include redis
+
   class {'pow':
     domains => 'pow, xip.io',
   }
