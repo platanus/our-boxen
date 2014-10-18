@@ -5,6 +5,13 @@ GIT
   specs:
     platnaus-nodejs (0.0.1)
 
+GIT
+  remote: git://github.com/platanus/puppet-pow.git
+  ref: pow-0.5.0
+  sha: 686aa73bce7af7d4be20f34f68922b94efb0ebc2
+  specs:
+    platnaus-pow (0.0.1)
+
 GITHUBTARBALL
   remote: archfear/puppet-prezto
   specs:
@@ -179,11 +186,6 @@ GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
     postgresql (3.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-pow
-  specs:
-    pow (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-property_list_key
@@ -374,8 +376,8 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
   platnaus-nodejs (>= 0)
+  platnaus-pow (>= 0)
   postgresql (= 3.0.1)
-  pow (= 2.1.0)
   prezto (= 1.0.1)
   property_list_key (= 0.1.0)
   redis (= 3.1.0)
