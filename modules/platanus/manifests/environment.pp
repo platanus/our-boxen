@@ -71,7 +71,6 @@ class platanus::environment{
   package { 'chromedriver': }
 
   # Communication
-  include screenhero
   include hipchat
 
 }
