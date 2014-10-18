@@ -103,6 +103,7 @@ github "redis",                 "3.1.0"
 
 ## PHP module
 github "php",                   "1.2.1"
+github "autoconf",              "1.0.0"
 github "wget",                  "1.0.1"
 github "libtool",               "1.0.0"
 github "pkgconfig",             "1.0.0"
