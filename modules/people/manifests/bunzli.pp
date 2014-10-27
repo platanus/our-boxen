@@ -4,9 +4,6 @@ class people::bunzli {
   include dropbox
   include clipmenu
   include spectacle
-  class {'pow':
-    domains => 'pow,xip.io',
-  }
 
   # sublime 3
   include sublime_text_3

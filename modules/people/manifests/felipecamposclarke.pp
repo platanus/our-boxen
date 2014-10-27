@@ -2,9 +2,6 @@ class people::felipecamposclarke {
   include googledrive
   include dropbox
   include iterm2::stable
-  class {'pow':
-    domains => 'pow,xip.io',
-  }
 
   include sublime_text_2
   sublime_text_2::package { 'EditorConfig':

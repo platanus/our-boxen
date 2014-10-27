@@ -5,9 +5,5 @@ class people::camiparot {
   sublime_text_2::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
   }
-
-  class {'pow':
-    domains => 'pow,xip.io',
-  }
 }
 

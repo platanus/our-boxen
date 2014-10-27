@@ -52,6 +52,11 @@ class platanus::environment{
     version      => '~> 1.1'
   }
 
+  ruby_gem { 'powder for all rubies':
+    gem          => 'powder',
+    ruby_version => '*'
+  }
+
   # ruby::plugin { 'rbenv-vars':
   #   ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
   #   source  => 'sstephenson/rbenv-vars'
@@ -60,6 +65,9 @@ class platanus::environment{
   # Services
   include mysql
   include postgresql
+  class {'pow':
+    domains => 'pow, xip.io',
+  }
 
   # Applications
   include chrome

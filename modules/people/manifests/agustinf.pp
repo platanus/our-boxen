@@ -9,9 +9,6 @@ class people::agustinf {
   include spotify
   include redis
 
-  class {'pow':
-    domains => 'pow, xip.io',
-  }
   include imagemagick
 
 

@@ -13,9 +13,6 @@ class people::blackjid {
   include dropbox
   include skype
   include vagrant
-  class {'pow':
-    domains => 'pow,xip.io',
-  }
 
   # Yeoman tools
   nodejs::module { 'yo for 0.10':

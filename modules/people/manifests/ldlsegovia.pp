@@ -12,9 +12,6 @@ class people::ldlsegovia {
   include spectacle
   include caffeine
   include skype
-  class {'pow':
-    domains => 'pow,xip.io',
-  }
 
   include sublime_text_3
   include sublime_text_3::package_control
