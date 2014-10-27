@@ -7,7 +7,7 @@ class people::iobaixas {
 	include clipmenu
 	include googledrive
 	include iterm2::stable
-	include sublime_text_2
+	include sublime_text::v2
 
 	# Osx config
   	# include people::iobaixas::osx
@@ -50,7 +50,7 @@ class people::iobaixas {
 	# Sublime text setup, ensure package control is enabled, the other packages are installed
 	# via the dotfiles.
 
-	sublime_text_2::package { 'Package Control':
+	sublime_text::v2::package { 'Package Control':
   		source => 'wbond/sublime_package_control'
   	}
 

@@ -17,16 +17,16 @@ class people::agustinf {
     provider => 'pkgdmg'
   }
 
-  sublime_text_2::package { 'Package Control':
+  sublime_text::v2::package { 'Package Control':
     source => 'wbond/sublime_package_control'
   }
 
-  include sublime_text_2
-  sublime_text_2::package { 'EditorConfig':
+  include sublime_text::v2
+  sublime_text::v2::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
   }
 
-   sublime_text_2::package { 'GitGutter':
+   sublime_text::v2::package { 'GitGutter':
     source => 'jisaacks/GitGutter'
   }
 

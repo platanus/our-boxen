@@ -238,9 +238,9 @@ GITHUBTARBALL
     spotify (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
+  remote: boxen/puppet-sublime_text
   specs:
-    sublime_text_2 (1.1.2)
+    sublime_text (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -301,11 +301,6 @@ GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
-
-GITHUBTARBALL
-  remote: jozefizso/puppet-sublime_text_3
-  specs:
-    sublime_text_3 (1.0.3)
 
 GITHUBTARBALL
   remote: platanus/puppet-mysql
@@ -380,8 +375,7 @@ DEPENDENCIES
   spectacle (= 1.0.0)
   spotify (= 1.0.1)
   stdlib (= 4.2.1)
-  sublime_text_2 (= 1.1.2)
-  sublime_text_3 (= 1.0.3)
+  sublime_text (= 1.0.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   textual (= 4.2.0)

@@ -6,14 +6,17 @@ class people::bunzli {
   include spectacle
 
   # sublime 3
-  include sublime_text_3
-  include sublime_text_3::package_control
+  include sublime_text
 
-  sublime_text_3::package { 'EditorConfig':
+  sublime_text::package { 'Package Control':
+    source => 'wbond/sublime_package_control'
+  }
+
+  sublime_text::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
   }
 
-  sublime_text_3::package { 'GitGutter':
+  sublime_text::package { 'GitGutter':
     source => 'jisaacks/GitGutter'
   }
 

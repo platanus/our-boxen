@@ -3,8 +3,8 @@ class people::felipecamposclarke {
   include dropbox
   include iterm2::stable
 
-  include sublime_text_2
-  sublime_text_2::package { 'EditorConfig':
+  include sublime_text::v2
+  sublime_text::v2::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
   }
 

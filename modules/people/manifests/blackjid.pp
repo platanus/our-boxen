@@ -13,6 +13,7 @@ class people::blackjid {
   include dropbox
   include skype
   include vagrant
+  include sublime_text
 
   # Yeoman tools
   nodejs::module { 'yo for 0.10':
@@ -21,15 +22,9 @@ class people::blackjid {
     ensure => '1.1.2'
   }
 
-  include sublime_text_3
-  include sublime_text_3::package_control
-
-  sublime_text_3::package { 'EditorConfig':
-    source => 'sindresorhus/editorconfig-sublime'
-  }
-
-  sublime_text_3::package { 'GitGutter':
-    source => 'jisaacks/GitGutter'
+  # Sublime Text
+  sublime_text::package { 'Package Control':
+    source => 'wbond/sublime_package_control'
   }
 
   # Osx config
