@@ -223,11 +223,6 @@ GITHUBTARBALL
     shortcat (1.0.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-skydrive
-  specs:
-    skydrive (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
     skype (1.0.8)
@@ -381,7 +376,6 @@ DEPENDENCIES
   ruby (= 8.1.4)
   sequel_pro (= 1.0.1)
   shortcat (= 1.0.6)
-  skydrive (= 1.0.1)
   skype (= 1.0.8)
   spectacle (= 1.0.0)
   spotify (= 1.0.1)

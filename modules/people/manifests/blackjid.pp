@@ -7,7 +7,6 @@ class people::blackjid {
   include chrome::canary
   include googledrive
   include textual
-  include skydrive
   include vlc
   include spectacle
   include caffeine
