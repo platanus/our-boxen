@@ -265,7 +265,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-toggl
   specs:
-    toggl (1.0.5)
+    toggl (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
@@ -386,7 +386,7 @@ DEPENDENCIES
   sysctl (= 1.0.1)
   textual (= 4.2.0)
   tmux (= 1.0.2)
-  toggl (= 1.0.5)
+  toggl (= 1.0.6)
   vagrant (= 3.0.8)
   virtualbox (= 1.0.12)
   vlc (= 1.1.0)
