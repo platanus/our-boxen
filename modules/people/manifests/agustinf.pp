@@ -6,7 +6,6 @@ class people::agustinf {
   include dropbox
   include iterm2::stable
   include clipmenu
-  include wunderlist
   include spotify
   include redis
 

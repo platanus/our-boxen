@@ -298,11 +298,6 @@ GITHUBTARBALL
     wkhtmltopdf (1.2.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-wunderlist
-  specs:
-    wunderlist (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -403,7 +398,6 @@ DEPENDENCIES
   vlc (= 1.1.0)
   wget (= 1.0.1)
   wkhtmltopdf (= 1.2.1)
-  wunderlist (= 1.0.0)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
 

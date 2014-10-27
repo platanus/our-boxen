@@ -95,7 +95,6 @@ github "hipchat",               "1.1.3"
 mod 'platnaus-pow',
   :git => "git://github.com/platanus/puppet-pow.git",
   :ref => "pow-0.5.0"
-github "wunderlist",            "1.0.0"
 github "spotify",               "1.0.1"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
 github "pgadmin3",              "1.0.0"
