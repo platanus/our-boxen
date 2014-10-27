@@ -39,4 +39,6 @@ class people::blackjid {
   # Osx config
   include people::blackjid::osx
 
+  # Dotfiles
+  include people::blackjid::dotfiles
 }
