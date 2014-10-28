@@ -15,13 +15,29 @@ class people::blackjid {
   include vagrant
   include sublime_text
 
-  # Yeoman tools
+  # NPM Packages
   nodejs::module { 'yo for 0.10':
     module  => 'yo',
     node_version => '0.10',
     ensure => '1.1.2'
   }
 
+  nodejs::module { 'coffeelint for 0.10':
+    module  => 'coffeelint',
+    node_version => '0.10'
+  }
+
+  nodejs::module { 'jshint for 0.10':
+    module  => 'jshint',
+    node_version => '0.10'
+  }
+
+  # GEMS
+  ruby_gem { 'puppet-lint for all rubies':
+    gem          => 'puppet-lint',
+    ruby_version => '*'
+  }
+  
   # Sublime Text
   sublime_text::package { 'Package Control':
     source => 'wbond/sublime_package_control'
