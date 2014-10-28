@@ -23,4 +23,11 @@ class people::blackjid::osx {
 
   include osx::no_network_dsstores
 
+  boxen::osx_defaults { 'Disable dashboard':
+    user   => $::boxen_user,
+    key    => 'mcx-disabled',
+    domain => 'com.apple.dashboard',
+    value  => true,
+    notify => Exec['killall Dock'];
+  }
 }
