@@ -27,6 +27,19 @@ class people::blackjid {
     source => 'wbond/sublime_package_control'
   }
 
+  $sublime_settings = "${boxen::config::srcdir}/sublime-settings"
+  repository { 'Sublime Text Settings':
+    source  => 'blackjid/sublime-settings',
+    path    => $sublime_settings
+  }
+
+  file { "/Users/${::boxen_user}/Library/Application Support/Sublime Text 3/Packages/User":
+    ensure  => link,
+    force   => true,
+    target  => $sublime_settings,
+    require => Repository['Sublime Text Settings']
+  }
+
   # Osx config
   include people::blackjid::osx
 
