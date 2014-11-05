@@ -4,6 +4,11 @@ class people::bunzli {
   include dropbox
   include clipmenu
   include spectacle
+  include skype
+  include googledrive
+  include vlc
+  include phantomjs
+  include spotify
 
   # sublime 3
   include sublime_text
