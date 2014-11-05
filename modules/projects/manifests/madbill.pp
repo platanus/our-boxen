@@ -17,8 +17,6 @@ class projects::madbill {
     options => ['platform', 'system_image']
   }
 
-
-  include eclipse::java
   # Clone the repos
   repository { 'madbill-mobile':
     provider => git,

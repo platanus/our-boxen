@@ -63,11 +63,6 @@ GITHUBTARBALL
     dropbox (1.4.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-eclipse
-  specs:
-    eclipse (2.3.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.1.9)
@@ -327,7 +322,6 @@ DEPENDENCIES
   clipmenu (= 1.0.0)
   dnsmasq (= 2.0.0)
   dropbox (= 1.4.1)
-  eclipse (= 2.3.0)
   firefox (= 1.1.9)
   gcc (= 2.2.0)
   git (= 2.7.0)
