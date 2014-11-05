@@ -1,4 +1,5 @@
 class people::bunzli {
+  include zsh
   include virtualbox
   include imagemagick
   include dropbox
@@ -36,4 +37,6 @@ class people::bunzli {
 
   #include projects::all
 
+  # Dotfiles
+  include people::bunzli::dotfiles
 }
