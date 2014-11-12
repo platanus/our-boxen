@@ -10,6 +10,7 @@ class people::bunzli {
   include vlc
   include phantomjs
   include spotify
+  include better_touch_tools
 
   # sublime 3
   include sublime_text
