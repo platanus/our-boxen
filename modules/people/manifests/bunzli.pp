@@ -40,4 +40,6 @@ class people::bunzli {
 
   # Dotfiles
   include people::bunzli::dotfiles
+
+  package { 'ant': }
 }
