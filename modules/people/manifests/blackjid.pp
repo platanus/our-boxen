@@ -13,6 +13,7 @@ class people::blackjid {
   include dropbox
   include skype
   include vagrant
+  include virtualbox
   include sublime_text
 
   # NPM Packages
