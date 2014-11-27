@@ -11,20 +11,34 @@ class people::bunzli {
   include phantomjs
   include spotify
   include better_touch_tools
-
-  # sublime 3
   include sublime_text
 
+  nodejs::module { 'coffeelint for 0.10':
+    module  => 'coffeelint',
+    node_version => '0.10'
+  }
+
+  nodejs::module { 'jshint for 0.10':
+    module  => 'jshint',
+    node_version => '0.10'
+  }
+
+  # Sublime Text
   sublime_text::package { 'Package Control':
     source => 'wbond/sublime_package_control'
   }
 
-  sublime_text::package { 'EditorConfig':
-    source => 'sindresorhus/editorconfig-sublime'
+  $sublime_settings = "${boxen::config::srcdir}/sublime-settings"
+  repository { 'Sublime Text Settings':
+    source  => 'bunzli/sublime-settings',
+    path    => $sublime_settings
   }
 
-  sublime_text::package { 'GitGutter':
-    source => 'jisaacks/GitGutter'
+  file { "/Users/${::boxen_user}/Library/Application Support/Sublime Text 3/Packages/User":
+    ensure  => link,
+    force   => true,
+    target  => $sublime_settings,
+    require => Repository['Sublime Text Settings']
   }
 
   $home     = "/Users/${::luser}"
