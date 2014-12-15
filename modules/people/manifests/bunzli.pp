@@ -12,6 +12,7 @@ class people::bunzli {
   include spotify
   include better_touch_tools
   include sublime_text
+  include screenhero
 
   nodejs::module { 'coffeelint for 0.10':
     module  => 'coffeelint',
