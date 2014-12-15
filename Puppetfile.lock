@@ -203,6 +203,11 @@ GITHUBTARBALL
     ruby (8.1.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-screenhero
+  specs:
+    screenhero (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
   specs:
     sequel_pro (1.0.1)
@@ -357,6 +362,7 @@ DEPENDENCIES
   redis (= 3.1.0)
   repository (= 2.3.0)
   ruby (= 8.1.5)
+  screenhero (= 1.0.1)
   sequel_pro (= 1.0.1)
   shortcat (= 1.0.6)
   skype (= 1.0.8)

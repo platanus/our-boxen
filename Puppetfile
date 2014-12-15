@@ -113,3 +113,4 @@ github "postgresql",            "3.0.1"
 
 #wkhtmltopdf
 github "wkhtmltopdf",           "1.2.1"
+github "screenhero",            "1.0.1"
