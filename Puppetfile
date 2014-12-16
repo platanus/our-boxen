@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.7.0"
+github "boxen",      "3.9.0"
 
 # Support for default hiera data in modules
 
@@ -38,20 +38,20 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "2.0.0"
+github "dnsmasq",    "2.0.1"
 github "gcc",        "2.2.0"
 github "git",        "2.7.0"
-github "homebrew",   "1.9.6"
+github "homebrew",   "1.11.1"
 github "hub",        "1.3.0"
 github "inifile",    "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",      "1.4.4"
+github "nginx",      "1.4.5"
 mod 'platnaus-nodejs',
   :git => "git://github.com/platanus/puppet-nodejs.git",
   :ref => "OiNutter"
 github "openssl",    "1.0.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.3.0"
-github "ruby",       "8.1.5"
+github "ruby",       "8.2.0"
 github "stdlib",     "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"
@@ -68,7 +68,7 @@ github "property_list_key",     "0.1.0"
 github "zsh",                   "1.0.0"
 github "dropbox",               "1.4.1"
 github "iterm2",                "1.2.2"
-github "skype",                 "1.0.8"
+github "skype",                 "1.0.9"
 github "toggl",                 "1.0.7"
 github "googledrive",           "1.0.2"
 github "textual",               "4.2.0"

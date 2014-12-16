@@ -10,3 +10,6 @@ ruby::version::alias:
   1.9.3: 1.9.3-p484
   2.0.0: 2.0.0-p481
   "2.1": 2.1.2
+
+dnsmasq::host: 127.0.0.1
+dnsmasq::tld:  local
