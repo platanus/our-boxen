@@ -5,6 +5,7 @@ class people::blackjid {
   include iterm2::stable
   include chrome
   include chrome::canary
+  include firefox
   include googledrive
   include textual
   include vlc

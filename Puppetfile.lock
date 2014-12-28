@@ -65,7 +65,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.9)
+    firefox (1.2.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -327,7 +327,7 @@ DEPENDENCIES
   clipmenu (= 1.0.0)
   dnsmasq (= 2.0.1)
   dropbox (= 1.4.1)
-  firefox (= 1.1.9)
+  firefox (= 1.2.3)
   gcc (= 2.2.0)
   git (= 2.7.0)
   googledrive (= 1.0.2)

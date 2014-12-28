@@ -61,7 +61,7 @@ github "xquartz",    "1.2.1"
 
 github "alfred",                "1.1.8"
 github "chrome",                "1.2.0"
-github "firefox",               "1.1.9"
+github "firefox",               "1.2.3"
 github "sublime_text",          "1.0.1"
 github "osx",                   "2.7.0"
 github "property_list_key",     "0.1.0"
