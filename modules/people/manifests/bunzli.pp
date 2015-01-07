@@ -13,6 +13,7 @@ class people::bunzli {
   include better_touch_tools
   include sublime_text
   include screenhero
+  include iterm2::stable
 
   nodejs::module { 'coffeelint for 0.10':
     module  => 'coffeelint',
