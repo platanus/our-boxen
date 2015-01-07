@@ -16,6 +16,7 @@ class people::blackjid {
   include vagrant
   include virtualbox
   include sublime_text
+  include docker
 
   # NPM Packages
   nodejs::module { 'yo for 0.10':
@@ -39,7 +40,7 @@ class people::blackjid {
     gem          => 'puppet-lint',
     ruby_version => '*'
   }
-  
+
   # Sublime Text
   sublime_text::package { 'Package Control':
     source => 'wbond/sublime_package_control'

@@ -89,6 +89,7 @@ github "phantomjs",             "2.3.0"
 github "shortcat",              "1.0.6"
 github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.3"
+github "docker",                "0.8.0"
 mod 'platnaus-pow',
   :git => "git://github.com/platanus/puppet-pow.git",
   :ref => "pow-0.5.0"
