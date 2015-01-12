@@ -88,4 +88,7 @@ class platanus::environment{
   # Communication
   include hipchat
 
+  # Shell
+  package { 'fasd': }
+
 }
