@@ -51,7 +51,7 @@ mod 'platnaus-nodejs',
 github "openssl",    "1.0.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.3.0"
-github "ruby",       "8.2.0"
+github "ruby",       "8.3.0"
 github "stdlib",     "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"
