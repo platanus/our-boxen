@@ -23,13 +23,13 @@ end
 
 # Shortcut for a module under development
 def dev(name, *args)
-  mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
+  mod "puppet-#{name}", :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.9.0"
+github "boxen", "3.10.1"
 
 # Support for default hiera data in modules
 
@@ -38,16 +38,16 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "brewcask",   "0.0.4"
 github "dnsmasq",    "2.0.1"
 github "gcc",        "2.2.0"
 github "git",        "2.7.1"
-github "homebrew",   "1.11.1"
+github "homebrew",   "1.11.2"
 github "hub",        "1.3.0"
 github "inifile",    "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.5"
-mod 'platnaus-nodejs',
-  :git => "git://github.com/platanus/puppet-nodejs.git",
-  :ref => "OiNutter"
+github "stdlib",     "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "nodejs",     "5.0.0", :repo => "platanus/puppet-nodejs"
 github "openssl",    "1.0.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.3.0"
@@ -90,9 +90,7 @@ github "shortcat",              "1.0.6"
 github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.3"
 github "docker",                "0.8.0"
-mod 'platnaus-pow',
-  :git => "git://github.com/platanus/puppet-pow.git",
-  :ref => "pow-0.5.0"
+github "pow",                   "2.3.0"
 github "spotify",               "1.0.2"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
 github "pgadmin3",              "1.0.0"
