@@ -105,6 +105,7 @@ github "pcre",                  "1.0.0"
 github "libpng",                "1.0.0"
 github "caffeine",              "1.0.0"
 github "mumble",                "1.0.5"
+github "autoconf",              "1.0.0"
 
 ## postgresql
 github "sysctl",                "1.0.1"
