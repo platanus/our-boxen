@@ -13,3 +13,15 @@ ruby::version::alias:
 
 dnsmasq::host: 127.0.0.1
 dnsmasq::tld:  local
+
+boxen::personal::homebrew_packages:
+  - chromedriver
+  - fasd
+
+boxen::personal::osx_apps:
+  - google-chrome
+  - hipchat
+  - pgadmin3
+  - sequel_pro
+  - toggldesktop
+  - dropbox

@@ -76,19 +76,4 @@ class platanus::environment{
     domains => 'pow, xip.io',
   }
 
-  # Applications
-  include chrome
-  include toggl
-
-  # Development Tools
-  include sequel_pro
-  include pgadmin3
-  package { 'chromedriver': }
-
-  # Communication
-  include hipchat
-
-  # Shell
-  package { 'fasd': }
-
 }
