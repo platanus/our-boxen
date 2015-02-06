@@ -11,9 +11,6 @@ ruby::version::alias:
   2.0.0: 2.0.0-p481
   "2.1": 2.1.2
 
-dnsmasq::host: 127.0.0.1
-dnsmasq::tld:  local
-
 boxen::personal::homebrew_packages:
   - chromedriver
   - fasd

@@ -73,7 +73,7 @@ class platanus::environment{
   include mysql
   include postgresql
   class {'pow':
-    domains => 'pow, xip.io',
+    domains => 'pow,xip.io',
   }
 
 }
