@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.4)
+    brewcask (0.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -334,7 +334,7 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   better_touch_tools (= 3.0.0)
   boxen (= 3.10.1)
-  brewcask (= 0.0.4)
+  brewcask (= 0.0.5)
   caffeine (= 1.0.0)
   chrome (= 1.2.0)
   clipmenu (= 1.0.0)
