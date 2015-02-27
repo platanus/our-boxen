@@ -7,7 +7,9 @@ class people::agustinf::osx {
   include osx::global::expand_print_dialog
   include osx::global::expand_save_dialog
   include osx::global::disable_autocorrect
-
+  class { 'osx::global::key_repeat_rate':
+    rate => 1
+  }
   include osx::dock::autohide
   include osx::dock::clear_dock
   include osx::dock::dim_hidden_apps
