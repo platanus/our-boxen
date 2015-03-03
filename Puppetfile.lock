@@ -311,7 +311,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: platanus/puppet-nodejs
   specs:
-    nodejs (5.0.0)
+    nodejs (5.0.0-pre2)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile

@@ -2,7 +2,7 @@
 hub::protocol: ssh
 
 nodejs::version::alias:
-  "0.10": 0.10.28
+  "0.10": 0.10.36
 
 ruby::provider: 'rbenv'
 ruby::rbenv::ensure: v0.4.0
