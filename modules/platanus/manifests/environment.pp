@@ -33,6 +33,7 @@ class platanus::environment{
   class { 'ruby::global':
     version => '2.0.0'
   }
+  ruby::version { '2.2': }
   ruby::version { '2.1': }
   ruby::version { '1.9.3': }
 
