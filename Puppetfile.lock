@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.11.5)
+    homebrew (1.12.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -206,7 +206,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.3.0)
+    ruby (8.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -347,7 +347,7 @@ DEPENDENCIES
   googledrive (= 1.0.2)
   heroku (= 2.1.1)
   hipchat (= 1.1.3)
-  homebrew (= 1.11.5)
+  homebrew (= 1.12.0)
   hub (= 1.4.0)
   imagemagick (= 1.3.0)
   inifile (= 1.1.1)
@@ -375,7 +375,7 @@ DEPENDENCIES
   property_list_key (= 0.1.0)
   redis (= 3.1.0)
   repository (= 2.3.0)
-  ruby (= 8.3.0)
+  ruby (= 8.5.0)
   screenhero (= 1.0.1)
   sequel_pro (= 1.0.1)
   shortcat (= 1.0.6)

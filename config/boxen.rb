@@ -8,9 +8,9 @@
 # ENV['BOXEN_REPO_NAME'] = 'boxen/our-boxen'
 
 # Boxen binary packaging
-# ENV["BOXEN_S3_ACCESS_KEY"] = ''
-# ENV["BOXEN_S3_SECRET_KEY"] = ''
-# ENV["BOXEN_S3_BUCKET"] = ''
+ENV["BOXEN_S3_ACCESS_KEY"] = 'AKIAJY7IB4M64Z7C3CMQ'
+ENV["BOXEN_S3_SECRET_KEY"] = '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'
+ENV["BOXEN_S3_BUCKET"] = 'boxen-downloads.platan.us'
 
 # Auto-report issues on failed runs
 ENV["BOXEN_ISSUES_ENABLED"] = 'yes'
