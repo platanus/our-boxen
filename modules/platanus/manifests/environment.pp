@@ -39,7 +39,8 @@ class platanus::environment{
 
   $rbenvvars = "${boxen::config::home}/rbenv/plugins"
   file { $rbenvvars:
-      ensure => "directory",
+      ensure  => "directory",
+      require => Class['ruby::rbenv']
   }
   repository { 'rbenv-vars':
     source  => 'sstephenson/rbenv-vars',
