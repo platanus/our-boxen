@@ -5,13 +5,13 @@ nodejs::version::alias:
   "0.10": 0.10.36
 
 ruby::provider: 'rbenv'
-ruby::build::ensure: 'v20150319zf'
+ruby::build::ensure: 'v20150413'
 ruby::rbenv::ensure: v0.4.0
 ruby::version::alias:
-  1.9.3: 1.9.3-p484
-  2.0.0: 2.0.0-p481
-  "2.1": 2.1.2
-  "2.2": 2.2.1
+  1.9.3: 1.9.3-p551
+  2.0.0: 2.0.0-p645
+  "2.1": 2.1.6
+  "2.2": 2.2.2
 
 docker::version: '1.5.0'
 
