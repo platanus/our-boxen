@@ -31,8 +31,12 @@ boxen::personal::stacks:
 
 hub::protocol: ssh
 
+nodejs::provider: 'nodenv'
+nodejs::build::ensure: 'c2da6cfe7aa505b5d38fa328ecae268ac8382230'
+nodejs::nodenv::ensure: v0.2.0
 nodejs::version::alias:
   "0.10": 0.10.36
+  "0.12": 0.12.2
 
 ruby::provider: 'rbenv'
 ruby::build::ensure: 'v20150413'
