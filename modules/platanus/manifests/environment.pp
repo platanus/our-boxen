@@ -39,8 +39,8 @@ class platanus::environment{
 
   $rbenvvars = "${boxen::config::home}/rbenv/plugins"
   file { $rbenvvars:
-      ensure  => "directory",
-      require => Class['ruby::rbenv']
+    ensure  => "directory",
+    require => Class['ruby::rbenv']
   }
   repository { 'rbenv-vars':
     source  => 'sstephenson/rbenv-vars',
@@ -62,8 +62,7 @@ class platanus::environment{
 
   ruby_gem { 'negroku for all rubies':
     gem          => 'negroku',
-    ruby_version => '*',
-    version      => '~> 1.1'
+    ruby_version => '*'
   }
 
   ruby_gem { 'powder for all rubies':
