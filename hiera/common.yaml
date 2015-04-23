@@ -23,8 +23,8 @@ boxen::personal::homebrew_packages:
 boxen::personal::osx_apps:
   - google-chrome
   - hipchat
+  - slack
   - pgadmin3
   - sequel-pro
   - toggldesktop
-  - dropbox
   - screenhero
