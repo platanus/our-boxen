@@ -139,6 +139,11 @@ GITHUBTARBALL
     mumble (1.0.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (2.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.5)
@@ -304,11 +309,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: platanus/puppet-mysql
-  specs:
-    mysql (1.3.2)
-
-GITHUBTARBALL
   remote: platanus/puppet-nodejs
   specs:
     nodejs (5.0.0-pre2)
@@ -358,7 +358,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   mongodb (= 2.6.1)
   mumble (= 1.0.5)
-  mysql (= 1.3.2)
+  mysql (= 2.0.1)
   nginx (= 1.4.5)
   nodejs (= 5.0.0)
   openssl (= 1.0.0)
@@ -397,4 +397,3 @@ DEPENDENCIES
   wkhtmltopdf (= 1.2.1)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
-
