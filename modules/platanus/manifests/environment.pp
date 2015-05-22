@@ -73,6 +73,7 @@ class platanus::environment{
   # Services
   include mysql
   include postgresql
+  include postgis
   class {'pow':
     domains => 'pow,xip.io',
   }

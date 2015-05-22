@@ -186,7 +186,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
-    postgresql (3.0.1)
+    postgresql (4.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-pow
@@ -309,6 +309,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: lonelyplanet/puppet-postgis
+  specs:
+    postgis (2.1.7)
+
+GITHUBTARBALL
   remote: platanus/puppet-nodejs
   specs:
     nodejs (5.0.0-pre2)
@@ -369,7 +374,8 @@ DEPENDENCIES
   php (= 1.2.6)
   pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
-  postgresql (= 3.0.1)
+  postgis (= 2.1.7)
+  postgresql (= 4.0.1)
   pow (= 2.3.0)
   prezto (= 1.0.1)
   property_list_key (= 0.1.0)
@@ -397,3 +403,4 @@ DEPENDENCIES
   wkhtmltopdf (= 1.2.1)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
+

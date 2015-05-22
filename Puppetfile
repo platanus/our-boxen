@@ -109,7 +109,8 @@ github "autoconf",              "1.0.0"
 
 ## postgresql
 github "sysctl",                "1.0.1"
-github "postgresql",            "3.0.1"
+github "postgresql",            "4.0.1"
+github "postgis",               "2.1.7", :repo => "lonelyplanet/puppet-postgis"
 
 #wkhtmltopdf
 github "wkhtmltopdf",           "1.2.1"
