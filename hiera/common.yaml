@@ -21,6 +21,7 @@ boxen::personal::homebrew_packages:
   - chromedriver
   - fasd
   - libyaml
+  - postgis
 
 boxen::personal::osx_apps:
   - google-chrome

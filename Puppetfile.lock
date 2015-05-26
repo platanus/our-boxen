@@ -309,11 +309,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: lonelyplanet/puppet-postgis
-  specs:
-    postgis (2.1.7)
-
-GITHUBTARBALL
   remote: platanus/puppet-nodejs
   specs:
     nodejs (5.0.0-pre2)
@@ -374,7 +369,6 @@ DEPENDENCIES
   php (= 1.2.6)
   pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
-  postgis (= 2.1.7)
   postgresql (= 4.0.1)
   pow (= 2.3.0)
   prezto (= 1.0.1)
