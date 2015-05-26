@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.2)
+    boxen (3.10.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -64,6 +64,11 @@ GITHUBTARBALL
     dropbox (1.4.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-elasticsearch
+  specs:
+    elasticsearch (2.7.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.2.3)
@@ -71,12 +76,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.2.0)
+    gcc (2.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.5)
+    git (2.7.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-go
+  specs:
+    go (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-googledrive
@@ -101,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.0)
+    hub (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
@@ -171,7 +181,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.3.0)
+    phantomjs (2.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-php
@@ -206,12 +216,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.3.0)
+    repository (2.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.5.0)
+    ruby (8.5.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-screenhero
@@ -333,7 +343,7 @@ DEPENDENCIES
   android (= 1.3.0)
   autoconf (= 1.0.0)
   better_touch_tools (= 3.0.0)
-  boxen (= 3.10.2)
+  boxen (= 3.10.4)
   brewcask (= 0.0.6)
   caffeine (= 1.0.0)
   chrome (= 1.2.0)
@@ -341,14 +351,16 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   docker (= 0.9.0)
   dropbox (= 1.4.1)
+  elasticsearch (= 2.7.2)
   firefox (= 1.2.3)
-  gcc (= 2.2.0)
-  git (= 2.7.5)
+  gcc (= 2.2.1)
+  git (= 2.7.9)
+  go (= 2.1.0)
   googledrive (= 1.0.2)
   heroku (= 2.1.1)
   hipchat (= 1.1.3)
   homebrew (= 1.12.0)
-  hub (= 1.4.0)
+  hub (= 1.4.1)
   imagemagick (= 1.3.0)
   inifile (= 1.1.1)
   iterm2 (= 1.2.2)
@@ -365,7 +377,7 @@ DEPENDENCIES
   osx (= 2.7.0)
   pcre (= 1.0.0)
   pgadmin3 (= 1.0.0)
-  phantomjs (= 2.3.0)
+  phantomjs (= 2.4.0)
   php (= 1.2.6)
   pkgconfig (= 1.0.0)
   pkgconfig (= 1.0.0)
@@ -374,8 +386,9 @@ DEPENDENCIES
   prezto (= 1.0.1)
   property_list_key (= 0.1.0)
   redis (= 3.1.0)
-  repository (= 2.3.0)
-  ruby (= 8.5.0)
+  redis (= 3.1.0)
+  repository (= 2.4.1)
+  ruby (= 8.5.2)
   screenhero (= 1.0.1)
   sequel_pro (= 1.0.1)
   shortcat (= 1.0.6)

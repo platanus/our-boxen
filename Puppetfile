@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.10.2"
+github "boxen", "3.10.4"
 
 # Support for default hiera data in modules
 
@@ -40,21 +40,22 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 github "brewcask",   "0.0.6"
 github "dnsmasq",    "2.0.1"
-github "gcc",        "2.2.0"
-github "git",        "2.7.5"
+github "gcc",        "2.2.1"
+github "git",        "2.7.9"
 github "homebrew",   "1.12.0"
-github "hub",        "1.4.0"
+github "hub",        "1.4.1"
 github "inifile",    "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.5"
 github "stdlib",     "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "nodejs",     "5.0.0", :repo => "platanus/puppet-nodejs"
 github "openssl",    "1.0.0"
 github "pkgconfig",  "1.0.0"
-github "repository", "2.3.0"
-github "ruby",       "8.5.0"
+github "repository", "2.4.1"
+github "ruby",       "8.5.2"
 github "stdlib",     "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"
+github "go",         "2.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -85,7 +86,7 @@ github "tmux",                  "1.0.2"
 github "java",                  "1.7.1"
 github "imagemagick",           "1.3.0"
 github "spectacle",             "1.0.0"
-github "phantomjs",             "2.3.0"
+github "phantomjs",             "2.4.0"
 github "shortcat",              "1.0.6"
 github "clipmenu",              "1.0.0"
 github "hipchat",               "1.1.3"
@@ -94,6 +95,8 @@ github "pow",                   "2.3.0"
 github "spotify",               "1.0.2"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
 github "pgadmin3",              "1.0.0"
+github "redis",                 "3.1.0"
+github "elasticsearch",         "2.7.2"
 github "redis",                 "3.1.0"
 
 ## PHP module
