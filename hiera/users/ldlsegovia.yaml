@@ -1,0 +1,20 @@
+---
+# boxen::personal::homebrew_packages:
+#   -
+
+boxen::personal::includes:
+  - people::ldlsegovia::osx
+  - prezto
+  - sublime_text::v2
+  - virtualbox
+  - zsh
+
+boxen::personal::osx_apps:
+  - alfred
+  - caffeine
+  - clipmenu
+  - google-drive
+  - iterm2
+  - skype
+  - spectacle
+  - vlc

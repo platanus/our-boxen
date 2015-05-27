@@ -1,17 +1,5 @@
 class people::agustinf {
 
-  include googledrive
-  include textual
-  include better_touch_tools
-  include dropbox
-  include iterm2::stable
-  include clipmenu
-  include spotify
-  include redis
-
-  include imagemagick
-
-
   package { 'pandoc':
     source   => 'https://pandoc.googlecode.com/files/pandoc-1.11.1.dmg',
     provider => 'pkgdmg'
@@ -21,17 +9,13 @@ class people::agustinf {
     source => 'wbond/sublime_package_control'
   }
 
-  include sublime_text::v2
   sublime_text::v2::package { 'EditorConfig':
     source => 'sindresorhus/editorconfig-sublime'
   }
 
-   sublime_text::v2::package { 'GitGutter':
+  sublime_text::v2::package { 'GitGutter':
     source => 'jisaacks/GitGutter'
   }
-
-  # Osx config
-  include people::agustinf::osx
 
   # Dotfiles
 
@@ -48,35 +32,34 @@ class people::agustinf {
     require => Repository[$dotfiles_dir]
   }
 
-file { "${home}/.gitconfig":
+  file { "${home}/.gitconfig":
     ensure  => link,
     target  => "${dotfiles_dir}/.gitconfig",
     require => Repository[$dotfiles_dir]
   }
 
-file { "${home}/.gitignore_global":
+  file { "${home}/.gitignore_global":
     ensure  => link,
     target  => "${dotfiles_dir}/.gitignore_global",
     require => Repository[$dotfiles_dir]
   }
 
-file { "${home}/.negroku":
+  file { "${home}/.negroku":
     ensure  => link,
     target  => "${dotfiles_dir}/.negroku",
     require => Repository[$dotfiles_dir]
   }
 
-file { "${home}/.profile":
+  file { "${home}/.profile":
     ensure  => link,
     target  => "${dotfiles_dir}/.profile",
     require => Repository[$dotfiles_dir]
   }
 
-file { "${home}/.zshrc":
+  file { "${home}/.zshrc":
     ensure  => link,
     target  => "${dotfiles_dir}/.zshrc",
     require => Repository[$dotfiles_dir]
   }
 
-  #include projects::all
 }

@@ -60,60 +60,27 @@ github "go",         "2.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "alfred",                "1.1.8"
-github "chrome",                "1.2.0"
-github "firefox",               "1.2.3"
-github "sublime_text",          "1.0.1"
 github "osx",                   "2.7.0"
-github "property_list_key",     "0.1.0"
-github "zsh",                   "1.0.0"
-github "dropbox",               "1.4.1"
-github "iterm2",                "1.2.2"
-github "skype",                 "1.0.9"
-github "toggl",                 "1.0.7"
-github "googledrive",           "1.0.2"
-github "textual",               "4.2.0"
-github "sequel_pro",            "1.0.1"
-github "mysql",                 "2.0.1"
-github "mongodb",               "2.6.1"
-github "vlc",                   "1.1.0"
-github "heroku",                "2.1.1"
-github "virtualbox",            "1.0.13"
-github "vagrant",               "3.0.8"
-github "android",               "1.3.0"
-github "better_touch_tools",    "3.0.0"
-github "tmux",                  "1.0.2"
-github "java",                  "1.7.1"
-github "imagemagick",           "1.3.0"
-github "spectacle",             "1.0.0"
-github "phantomjs",             "2.4.0"
-github "shortcat",              "1.0.6"
-github "clipmenu",              "1.0.0"
-github "hipchat",               "1.1.3"
-github "docker",                "0.9.0"
-github "pow",                   "2.3.0"
-github "spotify",               "1.0.2"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
-github "pgadmin3",              "1.0.0"
-github "redis",                 "3.1.0"
-github "elasticsearch",         "2.7.2"
-github "redis",                 "3.1.0"
-
-## PHP module
-github "php",                   "1.2.6"
-github "wget",                  "1.0.1"
-github "libtool",               "1.0.0"
-github "pkgconfig",             "1.0.0"
-github "pcre",                  "1.0.0"
-github "libpng",                "1.0.0"
-github "caffeine",              "1.0.0"
-github "mumble",                "1.0.5"
-github "autoconf",              "1.0.0"
-
-## postgresql
+github "property_list_key",     "0.1.0"
 github "sysctl",                "1.0.1"
-github "postgresql",            "4.0.1"
+github "zsh",                   "1.0.0"
 
-#wkhtmltopdf
-github "wkhtmltopdf",           "1.2.1"
-github "screenhero",            "1.0.1"
+# Services
+github "docker",                "0.9.0"
+github "elasticsearch",         "2.7.2"
+github "mysql",                 "2.0.1"
+github "postgresql",            "4.0.1"
+github "pow",                   "2.3.0"
+github "redis",                 "3.1.0"
+
+# Application modules
+github "sublime_text",          "1.0.1"
+github "textual",               "4.2.0"
+github "virtualbox",            "1.0.13"
+
+# Android Stack
+github "android",               "1.4.0"
+github "java",                  "1.8.2"
+
+

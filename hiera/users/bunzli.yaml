@@ -1,0 +1,19 @@
+---
+# boxen::personal::homebrew_packages:
+#   -
+
+boxen::personal::includes:
+  - people::bunzli::dotfiles
+  - sublime_text
+  - virtualbox
+  - zsh
+
+boxen::personal::osx_apps:
+  - bettertouchtool
+  - dropbox
+  - google-drive
+  - iterm2
+  - skype
+  - spectacle
+  - spotify
+  - vlc
