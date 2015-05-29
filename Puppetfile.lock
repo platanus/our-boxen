@@ -1,8 +1,3 @@
-PATH
-  remote: /Users/jidonoso/src/boxen/puppet-boxen
-  specs:
-    puppet-boxen (0.0.1)
-
 GITHUBTARBALL
   remote: archfear/puppet-prezto
   specs:
@@ -12,6 +7,11 @@ GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-boxen
+  specs:
+    boxen (3.11.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -175,6 +175,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   android (= 1.4.0)
+  boxen (= 3.11.0)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
   docker (= 0.9.0)
@@ -197,7 +198,6 @@ DEPENDENCIES
   pow (= 2.3.0)
   prezto (= 1.0.1)
   property_list_key (= 0.1.0)
-  puppet-boxen (>= 0)
   redis (= 3.1.0)
   repository (= 2.4.1)
   ruby (= 8.5.2)
