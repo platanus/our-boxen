@@ -1,0 +1,16 @@
+---
+# boxen::personal::homebrew_packages:
+#   -
+
+boxen::personal::includes:
+  - people::agustinf::osx
+  - sublime_text::v2
+  - textual
+
+boxen::personal::osx_apps:
+  - bettertouchtool
+  - clipmenu
+  - dropbox
+  - google-drive
+  - iterm2
+  - spotify

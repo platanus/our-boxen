@@ -1,16 +1,6 @@
 class people::iobaixas {
 
-	include virtualbox
-	include alfred
-	include java
-	include zsh
-	include clipmenu
-	include googledrive
-	include iterm2::stable
-	include sublime_text::v2
-
-	# Osx config
-  	# include people::iobaixas::osx
+	# Dotfiles
 
 	$home = "/Users/${::boxen_user}"
 	$dotfiles_dir = "${boxen::config::srcdir}/dotfiles"

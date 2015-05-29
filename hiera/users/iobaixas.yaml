@@ -1,0 +1,14 @@
+---
+# boxen::personal::homebrew_packages:
+#   -
+
+boxen::personal::includes:
+  - sublime_text::v2
+  - virtualbox
+  - zsh
+
+boxen::personal::osx_apps:
+  - alfred
+  - clipmenu
+  - google-drive
+  - iterm2

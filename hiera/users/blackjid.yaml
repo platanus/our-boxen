@@ -1,1 +1,24 @@
 ---
+boxen::personal::homebrew_packages:
+  - ansible
+  - fasd
+  - terraform
+
+boxen::personal::includes:
+  - people::blackjid::osx
+  - people::blackjid::dotfiles
+  - docker
+  - sublime_text
+  - virtualbox
+  - zsh
+
+boxen::personal::osx_apps:
+  - caffeine
+  - dropbox
+  - firefox
+  - google-drive
+  - iterm2
+  - skype
+  - spectacle
+  - vagrant
+  - vlc

@@ -1,19 +1,4 @@
 class people::bunzli {
-  include zsh
-  include virtualbox
-  include imagemagick
-  include dropbox
-  include clipmenu
-  include spectacle
-  include skype
-  include googledrive
-  include vlc
-  include phantomjs
-  include spotify
-  include better_touch_tools
-  include sublime_text
-  include screenhero
-  include iterm2::stable
 
   nodejs::module { 'coffeelint for 0.10':
     module  => 'coffeelint',
@@ -47,15 +32,4 @@ class people::bunzli {
   $my       = "${home}/my"
   $dotfiles = "${my}/dotfiles"
 
-  #repository { $dotfiles:
-  #  source  => 'bunzli/dotfiles',
-  #  require => File[$my]
-  #}
-
-  #include projects::all
-
-  # Dotfiles
-  include people::bunzli::dotfiles
-
-  package { 'ant': }
 }

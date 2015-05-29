@@ -71,8 +71,6 @@ class platanus::environment{
   }
 
   # Services
-  include mysql
-  include postgresql
   class {'pow':
     domains => 'pow,xip.io',
   }

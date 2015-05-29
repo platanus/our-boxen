@@ -1,4 +1,28 @@
 ---
+boxen::config::hiera_merge_hierarchy: true
+
+boxen::personal::homebrew_packages:
+  - ant
+  - chromedriver
+  - imagemagick
+  - libyaml
+  - phantomjs
+  - postgis
+
+boxen::personal::includes:
+  - mysql
+  - postgresql
+  - redis
+
+boxen::personal::osx_apps:
+  - google-chrome
+  - hipchat
+  - slack
+  - pgadmin3
+  - sequel-pro
+  - toggldesktop
+  - screenhero
+
 hub::protocol: ssh
 
 nodejs::version::alias:
@@ -16,18 +40,3 @@ ruby::version::alias:
 docker::version: '1.6.2'
 
 mysql::socket: "%{::boxen::config::datadir}/mysql/socket"
-
-boxen::personal::homebrew_packages:
-  - chromedriver
-  - fasd
-  - libyaml
-  - postgis
-
-boxen::personal::osx_apps:
-  - google-chrome
-  - hipchat
-  - slack
-  - pgadmin3
-  - sequel-pro
-  - toggldesktop
-  - screenhero

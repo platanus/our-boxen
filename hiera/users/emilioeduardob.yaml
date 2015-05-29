@@ -1,0 +1,13 @@
+---
+# boxen::personal::homebrew_packages:
+#   -
+
+boxen::personal::includes:
+  - zsh
+
+boxen::personal::osx_apps:
+  - caffeine
+  - dropbox
+  - google-drive
+  - iterm2
+  - spectacle
