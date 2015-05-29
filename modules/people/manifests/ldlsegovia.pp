@@ -1,6 +1,5 @@
 class people::ldlsegovia {
 
-  include sublime_text_3
   sublime_text::package { 'Package Control':
     source => 'wbond/sublime_package_control'
   }
