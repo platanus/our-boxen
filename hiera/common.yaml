@@ -23,6 +23,11 @@ boxen::personal::osx_apps:
   - toggldesktop
   - screenhero
 
+boxen::personal::stacks:
+  - android
+  - node
+  - ruby
+
 hub::protocol: ssh
 
 nodejs::version::alias:

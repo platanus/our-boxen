@@ -22,3 +22,6 @@ boxen::personal::osx_apps:
   - spectacle
   - vagrant
   - vlc
+
+boxen::personal::stacks:
+  - go

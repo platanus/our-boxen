@@ -1,4 +1,5 @@
 require boxen::environment
+require boxen::personal::stacks
 require homebrew
 require gcc
 
