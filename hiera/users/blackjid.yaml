@@ -13,14 +13,20 @@ boxen::personal::includes:
   - zsh
 
 boxen::personal::osx_apps:
+  - 1password
   - caffeine
+  - dash
+  - daisydisk
   - dropbox
   - firefox
+  - flux
   - google-drive
+  - istat-menus
   - iterm2
   - skype
   - spectacle
   - vagrant
+  - visual-studio-code
   - vlc
 
 boxen::personal::stacks:
