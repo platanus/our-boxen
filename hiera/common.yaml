@@ -44,4 +44,7 @@ ruby::version::alias:
 
 docker::version: '1.6.2'
 
+java::update_version: '79'
+java::base_download_url: 'https://s3.amazonaws.com/boxen-downloads.platan.us/java'
+
 mysql::socket: "%{::boxen::config::datadir}/mysql/socket"
