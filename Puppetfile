@@ -80,7 +80,7 @@ github "textual",               "4.2.0"
 github "virtualbox",            "1.0.13"
 
 # Android Stack
-github "android",               "1.4.0"
+github "android",               "1.5.1"
 github "java",                  "1.8.2"
 
 
