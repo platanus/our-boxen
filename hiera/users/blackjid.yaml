@@ -14,6 +14,7 @@ boxen::personal::includes:
 
 boxen::personal::osx_apps:
   - 1password
+  - alfred
   - caffeine
   - dash
   - daisydisk
