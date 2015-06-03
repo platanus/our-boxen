@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.7.2)
+    elasticsearch (2.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -179,7 +179,7 @@ DEPENDENCIES
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
   docker (= 0.9.0)
-  elasticsearch (= 2.7.2)
+  elasticsearch (= 2.8.0)
   gcc (= 2.2.1)
   git (= 2.7.9)
   go (= 2.1.0)

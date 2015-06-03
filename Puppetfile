@@ -68,7 +68,7 @@ github "zsh",                   "1.0.0"
 
 # Services
 github "docker",                "0.9.0"
-github "elasticsearch",         "2.7.2"
+github "elasticsearch",         "2.8.0"
 github "mysql",                 "2.0.1"
 github "postgresql",            "4.0.1"
 github "pow",                   "2.3.0"

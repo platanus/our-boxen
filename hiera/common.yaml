@@ -13,6 +13,7 @@ boxen::personal::includes:
   - mysql
   - postgresql
   - redis
+  - elasticsearch
 
 boxen::personal::osx_apps:
   - google-chrome
