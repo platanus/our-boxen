@@ -2,7 +2,6 @@
 boxen::personal::homebrew_packages:
   - ansible
   - fasd
-  - terraform
 
 boxen::personal::includes:
   - people::blackjid::osx
@@ -26,6 +25,7 @@ boxen::personal::osx_apps:
   - iterm2
   - skype
   - spectacle
+  - terraform
   - vagrant
   - visual-studio-code
   - vlc
