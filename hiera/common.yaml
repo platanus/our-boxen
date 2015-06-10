@@ -42,6 +42,10 @@ ruby::version::alias:
   2.0.0: 2.0.0-p645
   "2.1": 2.1.6
   "2.2": 2.2.2
+ruby::rbenv::plugins:
+  rbenv-vars:
+    ensure: "3ffc5ce8cee564d3d892223add9548132ae22f8a"
+    source: "sstephenson/rbenv-vars"
 
 docker::version: '1.6.2'
 

@@ -8,18 +8,6 @@ class stacks::ruby {
   ruby::version { '2.1': }
   ruby::version { '1.9.3': }
 
-  $rbenvvars = "${boxen::config::home}/rbenv/plugins"
-  file { $rbenvvars:
-    ensure  => "directory",
-    require => Class['ruby::rbenv']
-  }
-  repository { 'rbenv-vars':
-    source  => 'sstephenson/rbenv-vars',
-    path    => "${$rbenvvars}/rbenv-vars",
-    ensure => '3ffc5ce8cee564d3d892223add9548132ae22f8a',
-    require => File[$rbenvvars]
-  }
-
   # Gems
   ruby_gem { 'rails for all rubies':
     gem          => 'rails',
