@@ -42,7 +42,7 @@ github "brewcask",   "0.0.6"
 github "dnsmasq",    "2.0.1"
 github "gcc",        "2.2.1"
 github "git",        "2.7.9"
-github "homebrew",   "1.12.1"
+github "homebrew",   "1.13.0"
 github "hub",        "1.4.1"
 github "inifile",    "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.5"
@@ -81,6 +81,6 @@ github "virtualbox",            "1.0.13"
 
 # Android Stack
 github "android",               "1.5.1"
-github "java",                  "1.8.2"
+github "java",                  "1.8.3"
 
 

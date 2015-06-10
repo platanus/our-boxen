@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.12.1)
+    homebrew (1.13.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -61,7 +61,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.8.2)
+    java (1.8.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-mysql
@@ -183,10 +183,10 @@ DEPENDENCIES
   gcc (= 2.2.1)
   git (= 2.7.9)
   go (= 2.1.0)
-  homebrew (= 1.12.1)
+  homebrew (= 1.13.0)
   hub (= 1.4.1)
   inifile (= 1.1.1)
-  java (= 1.8.2)
+  java (= 1.8.3)
   module_data (= 0.0.4)
   mysql (= 2.0.1)
   nginx (= 1.4.5)
