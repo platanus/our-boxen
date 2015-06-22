@@ -5,18 +5,6 @@ class stacks::node {
   }
   nodejs::version { '0.12': }
 
-  $nodenvvars = "${boxen::config::home}/nodenv/plugins"
-  file { $nodenvvars:
-      ensure  => "directory",
-      require => Class['nodejs::nodenv']
-  }
-  repository { 'nodenv-vars':
-    source  => 'OiNutter/nodenv-vars',
-    path    => "${$nodenvvars}/nodenv-vars",
-    ensure => 'ee42cd9db3f3fca2a77862ae05a410947c33ba09',
-    require => File[$nodenvvars]
-  }
-
   # Node
   npm_module { 'gulp for all nodes':
     module        => 'gulp',
