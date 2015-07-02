@@ -14,15 +14,16 @@ boxen::personal::includes:
 boxen::personal::osx_apps:
   - 1password
   - alfred
-  - caffeine
-  - dash
+  - atom
   - daisydisk
+  - dash
   - dropbox
   - firefox
   - flux
   - google-drive
   - istat-menus
   - iterm2
+  - keepingyouawake
   - skype
   - spectacle
   - spotify
