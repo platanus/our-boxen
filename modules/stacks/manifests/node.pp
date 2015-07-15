@@ -6,6 +6,12 @@ class stacks::node {
   nodejs::version { '0.12': }
 
   # Node
+  npm_module { 'npm for all nodes':
+    module        => 'npm',
+    node_version  => '*',
+    version       => '~> 2.12.0'
+  }
+
   npm_module { 'gulp for all nodes':
     module        => 'gulp',
     node_version  => '*',
