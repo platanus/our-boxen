@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: platanus/puppet-nodejs
   specs:
-    nodejs (5.0.0-pre2)
+    nodejs (6.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -190,7 +190,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   mysql (= 2.0.1)
   nginx (= 1.4.5)
-  nodejs (= 5.0.0)
+  nodejs (= 6.0.0)
   openssl (= 1.0.0)
   osx (= 2.7.0)
   pkgconfig (= 1.0.0)
