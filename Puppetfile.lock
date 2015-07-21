@@ -74,6 +74,11 @@ GITHUBTARBALL
     nginx (1.4.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nodejs
+  specs:
+    nodejs (5.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -154,11 +159,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: platanus/puppet-nodejs
-  specs:
-    nodejs (6.0.0)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -190,7 +190,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   mysql (= 2.0.1)
   nginx (= 1.4.5)
-  nodejs (= 6.0.0)
+  nodejs (= 5.0.0)
   openssl (= 1.0.0)
   osx (= 2.7.0)
   pkgconfig (= 1.0.0)
