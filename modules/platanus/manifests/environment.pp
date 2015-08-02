@@ -2,7 +2,8 @@ class platanus::environment{
 
   # Services
   class {'pow':
-    domains => 'pow,xip.io',
+    domains => 'pow',
+    ext_domains => 'xip.io'
   }
 
   # Env

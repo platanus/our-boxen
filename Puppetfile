@@ -71,7 +71,7 @@ github "docker",                "0.9.0"
 github "elasticsearch",         "2.8.0"
 github "mysql",                 "2.0.1"
 github "postgresql",            "4.0.1"
-github "pow",                   "2.3.0"
+github "pow",                   "2.3.1"
 github "redis",                 "3.1.0"
 
 # Application modules
