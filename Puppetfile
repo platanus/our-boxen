@@ -67,7 +67,6 @@ github "sysctl",                "1.0.1"
 github "zsh",                   "1.0.0"
 
 # Services
-github "docker",                "0.9.0"
 github "elasticsearch",         "2.8.0"
 github "mysql",                 "2.0.1"
 github "postgresql",            "4.0.1"
@@ -82,5 +81,3 @@ github "virtualbox",            "1.0.13"
 # Android Stack
 github "android",               "1.5.1"
 github "java",                  "1.8.3"
-
-

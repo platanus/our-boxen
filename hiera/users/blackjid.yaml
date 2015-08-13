@@ -6,9 +6,6 @@ boxen::personal::homebrew_packages:
 boxen::personal::includes:
   - people::blackjid::osx
   - people::blackjid::dotfiles
-  - docker
-  - sublime_text
-  - virtualbox
   - zsh
 
 boxen::personal::osx_apps:
@@ -17,11 +14,9 @@ boxen::personal::osx_apps:
   - atom
   - daisydisk
   - dash
-  - dropbox
   - firefox
   - flux
   - google-drive
-  - istat-menus
   - iterm2
   - keepingyouawake
   - skype

@@ -55,8 +55,6 @@ ruby::rbenv::plugins:
     ensure: "3ffc5ce8cee564d3d892223add9548132ae22f8a"
     source: "sstephenson/rbenv-vars"
 
-docker::version: '1.6.2'
-
 java::update_version: '79'
 java::base_download_url: 'https://s3.amazonaws.com/boxen-downloads.platan.us/java'
 
