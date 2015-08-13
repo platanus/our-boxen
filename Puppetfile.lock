@@ -24,6 +24,11 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.9.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
     elasticsearch (2.8.0)
@@ -31,12 +36,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.2.1)
+    gcc (3.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.9)
+    git (2.7.92)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -66,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.5)
+    nginx (1.4.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -156,12 +161,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.1.1)
+    inifile (1.4.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.2.1)
+    stdlib (4.7.0)
 
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
@@ -173,17 +178,18 @@ DEPENDENCIES
   boxen (= 3.11.0)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
+  docker (= 0.9.0)
   elasticsearch (= 2.8.0)
-  gcc (= 2.2.1)
-  git (= 2.7.9)
+  gcc (= 3.0.2)
+  git (= 2.7.92)
   go (= 2.1.0)
   homebrew (= 1.13.0)
   hub (= 1.4.1)
-  inifile (= 1.1.1)
+  inifile (= 1.4.1)
   java (= 1.8.3)
   module_data (= 0.0.4)
   mysql (= 2.0.1)
-  nginx (= 1.4.5)
+  nginx (= 1.4.6)
   nodejs (= 5.0.0)
   openssl (= 1.0.0)
   osx (= 2.7.0)
@@ -195,8 +201,7 @@ DEPENDENCIES
   redis (= 3.1.0)
   repository (= 2.4.1)
   ruby (= 8.5.2)
-  stdlib (= 4.2.1)
-  stdlib (= 4.2.1)
+  stdlib (= 4.7.0)
   sublime_text (= 1.0.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
