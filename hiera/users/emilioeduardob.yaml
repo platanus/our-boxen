@@ -6,14 +6,10 @@ boxen::personal::includes:
   - zsh
 
 boxen::personal::osx_apps:
-  - 1password
   - daisydisk
-  - firefox
-  - caffeine
   - dropbox
   - iterm2
   - skype
-  - spotify
   - spectacle
   - vlc
 
