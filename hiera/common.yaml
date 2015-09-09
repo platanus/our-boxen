@@ -32,11 +32,12 @@ boxen::personal::stacks:
 hub::protocol: ssh
 
 nodejs::provider: 'nodenv'
-nodejs::build::ensure: 'c2da6cfe7aa505b5d38fa328ecae268ac8382230'
+nodejs::build::ensure: '80cb791b63debce35110b55590cf3b9f953d72db'
 nodejs::nodenv::ensure: v0.2.0
 nodejs::version::alias:
   "0.10": 0.10.36
   "0.12": 0.12.2
+  "4.0": 4.0.0
 nodejs::nodenv::plugins:
   nodenv-vars:
     ensure: "ee42cd9db3f3fca2a77862ae05a410947c33ba09"

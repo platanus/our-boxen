@@ -4,6 +4,7 @@ class stacks::node {
     version => '0.10'
   }
   nodejs::version { '0.12': }
+  nodejs::version { '4.0': }
 
   # Node
   npm_module { 'npm for all nodes':
