@@ -78,5 +78,5 @@ github "textual",               "4.2.0"
 github "virtualbox",            "1.0.13"
 
 # Android Stack
-github "android",               "1.5.1"
+github "android",               "1.6.0"
 github "java",                  "1.8.3"

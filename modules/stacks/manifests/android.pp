@@ -3,7 +3,7 @@ class stacks::android {
   include android::sdk
   include android::platform_tools
 
-  android::build_tools { '22.0.1': }
+  android::build_tools { '23.0.1': }
 
   # Install KitKat 4.4
   android::version { '19':
