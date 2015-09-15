@@ -2,6 +2,7 @@
 boxen::personal::homebrew_packages:
   - ansible
   - fasd
+  - awscli
 
 boxen::personal::includes:
   - people::blackjid::osx
