@@ -9,11 +9,12 @@ boxen::personal::includes:
   - zsh
 
 boxen::personal::osx_apps:
-  - bettertouchtool
-  - dropbox
+  - atext
   - google-drive
   - iterm2
+  - moom
   - skype
-  - spectacle
   - spotify
   - vlc
+  - seil
+  - karabiner

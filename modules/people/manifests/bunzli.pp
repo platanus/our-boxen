@@ -1,13 +1,9 @@
 class people::bunzli {
 
-  nodejs::module { 'coffeelint for 0.10':
-    module  => 'coffeelint',
-    node_version => '0.10'
-  }
-
-  nodejs::module { 'jshint for 0.10':
-    module  => 'jshint',
-    node_version => '0.10'
+  npm_module { 'jshint for all nodes':
+    module        => 'jshint',
+    node_version  => '*',
+    version       => '~> 2.8.0'
   }
 
   # Sublime Text
