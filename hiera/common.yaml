@@ -33,7 +33,7 @@ hub::protocol: ssh
 
 nodejs::provider: 'nodenv'
 nodejs::build::ensure: '5976c493bea3e5b83d55297464405dbb45c42681'
-nodejs::nodenv::ensure: v0.2.0
+nodejs::nodenv::ensure: v0.3.0
 nodejs::version::alias:
   "0.10": 0.10.36
   "0.12": 0.12.2
