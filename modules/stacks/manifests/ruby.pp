@@ -1,4 +1,5 @@
 class stacks::ruby {
+  include platanus::hound::ruby
 
   # Ruby and gems
   class { 'ruby::global':

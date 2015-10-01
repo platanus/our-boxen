@@ -67,6 +67,7 @@ node default {
 
   # Custom modules
   include platanus::environment
+  include platanus::hound
 
   # common, useful packages
   package {
