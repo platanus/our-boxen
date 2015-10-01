@@ -12,7 +12,7 @@ class platanus::hound::ruby {
 
   ruby_gem { 'rubocop for all rubies':
     gem          => 'rubocop',
-    version      => '~> 0.29.1',
+    version      => '0.34.2',
     ruby_version => '*'
   }
 
