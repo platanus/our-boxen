@@ -3,18 +3,16 @@
 #   -
 
 boxen::personal::includes:
-  - people::bunzli::dotfiles
-  - sublime_text
-  - virtualbox
   - zsh
 
 boxen::personal::osx_apps:
-  - atext
+  - 1password
+  - atom
+  - daisydisk
+  - firefox
   - google-drive
   - iterm2
-  - moom
   - skype
   - spotify
   - vlc
-  - seil
-  - karabiner
+  - clipmenu
