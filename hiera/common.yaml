@@ -32,15 +32,15 @@ boxen::personal::stacks:
 hub::protocol: ssh
 
 nodejs::provider: 'nodenv'
-nodejs::build::ensure: '5976c493bea3e5b83d55297464405dbb45c42681'
-nodejs::nodenv::ensure: v0.3.0
+nodejs::build::ensure: 'e27e6aca77e7d65a596c1652c1e3a079796bffa1'
+nodejs::nodenv::ensure: v1.0.0
 nodejs::version::alias:
   "0.10": 0.10.36
   "0.12": 0.12.2
-  "4.1": 4.1.1
+  "4.2": 4.2.4
 nodejs::nodenv::plugins:
   nodenv-vars:
-    ensure: "ee42cd9db3f3fca2a77862ae05a410947c33ba09"
+    ensure: "aec6c972663e4277be34c61ee599f33bd9499331"
     source: "OiNutter/nodenv-vars"
 
 ruby::provider: 'rbenv'

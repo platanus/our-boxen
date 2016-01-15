@@ -1,7 +1,7 @@
 class stacks::node {
 
   class { 'nodejs::global':
-    version => '4.1'
+    version => '4.2'
   }
   nodejs::version { '0.10': }
   nodejs::version { '0.12': }
