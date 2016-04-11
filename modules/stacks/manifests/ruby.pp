@@ -1,6 +1,4 @@
 class stacks::ruby {
-  include platanus::hound::ruby
-
   # Ruby and gems
   class { 'ruby::global':
     version => '2.0.0'
