@@ -35,4 +35,9 @@ class stacks::ruby {
     ruby_version => '*'
   }
 
+  ruby_gem { 'rubocop for all rubies':
+    gem          => 'rubocop',
+    ruby_version => '*'
+  }
+
 }
