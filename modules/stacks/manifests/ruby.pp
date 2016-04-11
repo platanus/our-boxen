@@ -7,7 +7,6 @@ class stacks::ruby {
   }
   ruby::version { '2.2': }
   ruby::version { '2.1': }
-  ruby::version { '1.9.3': }
 
   # Gems
   ruby_gem { 'rails for all rubies':
@@ -28,6 +27,11 @@ class stacks::ruby {
 
   ruby_gem { 'powder for all rubies':
     gem          => 'powder',
+    ruby_version => '*'
+  }
+
+  ruby_gem { 'potassium for all rubies':
+    gem          => 'potassium',
     ruby_version => '*'
   }
 
