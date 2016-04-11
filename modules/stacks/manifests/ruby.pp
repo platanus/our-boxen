@@ -20,6 +20,7 @@ class stacks::ruby {
 
   ruby_gem { 'negroku for all rubies':
     gem          => 'negroku',
+    version      => '~> 2.8',
     ruby_version => '*'
   }
 
