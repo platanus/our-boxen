@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.11.0)
+    boxen (3.11.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -46,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.13.0)
+    homebrew (2.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -56,7 +56,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
-    java (1.8.3)
+    java (1.8.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-mysql
@@ -66,7 +66,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.6)
+    nginx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.7.0)
+    osx (2.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -116,7 +116,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.5.2)
+    ruby (8.5.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text
@@ -170,23 +170,23 @@ GITHUBTARBALL
 
 DEPENDENCIES
   android (= 1.6.0)
-  boxen (= 3.11.0)
+  boxen (= 3.11.1)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
   elasticsearch (= 2.8.0)
   gcc (= 3.0.2)
   git (= 2.7.92)
   go (= 2.1.0)
-  homebrew (= 1.13.0)
+  homebrew (= 2.0.2)
   hub (= 1.4.1)
   inifile (= 1.4.1)
-  java (= 1.8.3)
+  java (= 1.8.4)
   module_data (= 0.0.4)
   mysql (= 2.0.1)
-  nginx (= 1.4.6)
+  nginx (= 1.6.0)
   nodejs (= 5.0.5)
   openssl (= 1.0.0)
-  osx (= 2.7.0)
+  osx (= 2.8.0)
   pkgconfig (= 1.0.0)
   postgresql (= 4.0.1)
   pow (= 2.3.1)
@@ -194,7 +194,7 @@ DEPENDENCIES
   property_list_key (= 0.1.0)
   redis (= 3.1.0)
   repository (= 2.4.1)
-  ruby (= 8.5.2)
+  ruby (= 8.5.4)
   stdlib (= 4.7.0)
   sublime_text (= 1.0.1)
   sudo (= 1.0.0)

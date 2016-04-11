@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.11.0"
+github "boxen", "3.11.1"
 
 # Support for default hiera data in modules
 
@@ -42,16 +42,16 @@ github "brewcask",   "0.0.6"
 github "dnsmasq",    "2.0.1"
 github "gcc",        "3.0.2"
 github "git",        "2.7.92"
-github "homebrew",   "1.13.0"
+github "homebrew",   "2.0.2"
 github "hub",        "1.4.1"
 github "inifile",    "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
-github "nginx",      "1.4.6"
+github "nginx",      "1.6.0"
 github "stdlib",     "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "nodejs",     "5.0.5"
 github "openssl",    "1.0.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.4.1"
-github "ruby",       "8.5.2"
+github "ruby",       "8.5.4"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"
 github "go",         "2.1.0"
@@ -59,7 +59,7 @@ github "go",         "2.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "osx",                   "2.7.0"
+github "osx",                   "2.8.0"
 github "prezto",                "1.0.1", :repo => "archfear/puppet-prezto"
 github "property_list_key",     "0.1.0"
 github "sysctl",                "1.0.1"
@@ -79,4 +79,4 @@ github "virtualbox",            "1.0.13"
 
 # Android Stack
 github "android",               "1.6.0"
-github "java",                  "1.8.3"
+github "java",                  "1.8.4"
