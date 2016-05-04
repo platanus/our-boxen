@@ -17,7 +17,6 @@ boxen::personal::includes:
 
 boxen::personal::osx_apps:
   - google-chrome
-  - hipchat
   - slack
   - pgadmin3
   - sequel-pro
