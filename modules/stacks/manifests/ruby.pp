@@ -1,10 +1,11 @@
 class stacks::ruby {
   # Ruby and gems
   class { 'ruby::global':
-    version => '2.0.0'
+    version => '2.3'
   }
   ruby::version { '2.2': }
   ruby::version { '2.1': }
+  ruby::version { '2.0.0': }
 
   # Gems
   ruby_gem { 'rails for all rubies':
