@@ -15,17 +15,38 @@ boxen::personal::osx_apps:
   - atom
   - daisydisk
   - dash
+  - dockertoolbox
   - firefox
   - flux
+  - genymotion
+  - gitup
+  - google-chrome
   - google-drive
   - iterm2
   - keepingyouawake
-  - mailbox
+  - pgadmin3
+  - postico
+  - prey
+  - provisioning
+  - psequel
+  - qlcolorcode
+  - qlmarkdown
+  - quicklook-json
+  - recordit
+  - screenhero
+  - sequel-pro
+  - sketch
   - skype
+  - slack
   - spectacle
   - spotify
-  - terraform
+  - steam
+  - synology-assistant
+  - telegram
+  - toggldesktop
+  - typora
   - vagrant
+  - virtualbox
   - visual-studio-code
   - vlc
 
