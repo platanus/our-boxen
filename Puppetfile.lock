@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.6)
+    brewcask (0.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -57,11 +57,6 @@ GITHUBTARBALL
   remote: boxen/puppet-java
   specs:
     java (1.8.4)
-
-GITHUBTARBALL
-  remote: boxen/puppet-mysql
-  specs:
-    mysql (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -154,6 +149,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: platanus/puppet-mysql
+  specs:
+    mysql (2.0.1.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.4.1)
@@ -171,7 +171,7 @@ GITHUBTARBALL
 DEPENDENCIES
   android (= 1.6.0)
   boxen (= 3.11.1)
-  brewcask (= 0.0.6)
+  brewcask (= 0.0.7)
   dnsmasq (= 2.0.1)
   elasticsearch (= 2.8.0)
   gcc (= 3.0.2)
@@ -182,7 +182,7 @@ DEPENDENCIES
   inifile (= 1.4.1)
   java (= 1.8.4)
   module_data (= 0.0.4)
-  mysql (= 2.0.1)
+  mysql (= 2.0.1.1)
   nginx (= 1.6.0)
   nodejs (= 5.0.5)
   openssl (= 1.0.0)

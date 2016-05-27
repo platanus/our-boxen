@@ -38,7 +38,7 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "brewcask",   "0.0.6"
+github "brewcask",   "0.0.7"
 github "dnsmasq",    "2.0.1"
 github "gcc",        "3.0.2"
 github "git",        "2.7.92"
@@ -67,7 +67,7 @@ github "zsh",                   "1.0.0"
 
 # Services
 github "elasticsearch",         "2.8.0"
-github "mysql",                 "2.0.1"
+github "mysql",                 "2.0.1.1", :repo => "platanus/puppet-mysql"
 github "postgresql",            "4.1.0"
 github "pow",                   "2.3.1"
 github "redis",                 "3.1.0"
