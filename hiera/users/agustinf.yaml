@@ -5,12 +5,42 @@
 boxen::personal::includes:
   - people::agustinf::osx
   - sublime_text::v2
-  - textual
 
 boxen::personal::osx_apps:
-  - bettertouchtool
+  - 1password
+  - alfred
   - clipmenu
+  - dash
   - dropbox
+  - dockertoolbox
+  - firefox
+  - flux
+  - genymotion
+  - gitup
+  - google-chrome
   - google-drive
   - iterm2
+  - keepingyouawake
+  - pgadmin3
+  - postico
+  - prey
+  - provisioning
+  - psequel
+  - qlcolorcode
+  - qlmarkdown
+  - quicklook-json
+  - recordit
+  - screenhero
+  - sequel-pro
+  - sketch
+  - skype
+  - slack
+  - spectacle
   - spotify
+  - telegram
+  - toggldesktop
+  - typora
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+  - vlc
