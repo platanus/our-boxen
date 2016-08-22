@@ -68,7 +68,7 @@ github "zsh",                   "1.0.0"
 # Services
 github "elasticsearch",         "2.8.0"
 github "mysql",                 "2.0.1.1", :repo => "platanus/puppet-mysql"
-github "postgresql",            "4.1.0"
+github "postgresql",            "5.0.0"
 github "pow",                   "2.3.1"
 github "redis",                 "3.1.0"
 
