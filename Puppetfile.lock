@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.2)
+    hub (1.4.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-java
@@ -178,7 +178,7 @@ DEPENDENCIES
   git (= 2.7.92)
   go (= 2.1.0)
   homebrew (= 2.0.2)
-  hub (= 1.4.2)
+  hub (= 1.4.3)
   inifile (= 1.4.1)
   java (= 1.8.4)
   module_data (= 0.0.4)
