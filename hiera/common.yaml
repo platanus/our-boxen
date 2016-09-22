@@ -43,12 +43,12 @@ nodejs::nodenv::plugins:
     source: "OiNutter/nodenv-vars"
 
 ruby::provider: 'rbenv'
-ruby::build::ensure: 'v20160426'
+ruby::build::ensure: 'v20160913'
 ruby::rbenv::ensure: v1.0.0
 ruby::version::alias:
-  2.0.0: 2.0.0-p645
-  "2.1": 2.1.6
-  "2.2": 2.2.4
+  2.0.0: 2.0.0-p648
+  "2.1": 2.1.10
+  "2.2": 2.2.5
   "2.3": 2.3.1
 ruby::rbenv::plugins:
   rbenv-vars:
