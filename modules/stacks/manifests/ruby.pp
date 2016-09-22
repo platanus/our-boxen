@@ -15,13 +15,11 @@ class stacks::ruby {
 
   ruby_gem { 'bundler for all rubies':
     gem          => 'bundler',
-    version      => '~> 1.10',
     ruby_version => '*'
   }
 
   ruby_gem { 'negroku for all rubies':
     gem          => 'negroku',
-    version      => '~> 2.8',
     ruby_version => '*'
   }
 
