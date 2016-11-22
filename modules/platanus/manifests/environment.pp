@@ -12,4 +12,6 @@ class platanus::environment{
     priority => lowest,
   }
 
+  homebrew::tap { 'caskroom/fonts': }
+
 }
