@@ -3,6 +3,7 @@ class stacks::ruby {
   class { 'ruby::global':
     version => '2.3'
   }
+  ruby::version { '2.4': }
   ruby::version { '2.2': }
   ruby::version { '2.1': }
   ruby::version { '2.0.0': }
@@ -18,19 +19,9 @@ class stacks::ruby {
     ruby_version => '*'
   }
 
-  ruby_gem { 'negroku for all rubies':
-    gem          => 'negroku',
-    ruby_version => '*'
-  }
-
-  ruby_gem { 'powder for all rubies':
-    gem          => 'powder',
-    ruby_version => '*'
-  }
-
   ruby_gem { 'potassium for all rubies':
     gem          => 'potassium',
-    ruby_version => '*'
+    ruby_version => '2.3'
   }
 
   ruby_gem { 'rubocop for all rubies':
