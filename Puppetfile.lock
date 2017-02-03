@@ -24,11 +24,6 @@ GITHUBTARBALL
     dnsmasq (2.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-elasticsearch
-  specs:
-    elasticsearch (2.8.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (3.0.2)
@@ -154,6 +149,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: envato/puppet-elasticsearch
+  specs:
+    elasticsearch (2.9.0.2)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.4.1)
@@ -173,7 +173,7 @@ DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.7)
   dnsmasq (= 2.0.2)
-  elasticsearch (= 2.8.0)
+  elasticsearch (= 2.9.0.2)
   gcc (= 3.0.2)
   git (= 2.11.0)
   go (= 2.1.0)

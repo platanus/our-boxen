@@ -66,7 +66,7 @@ github "sysctl",                "1.0.1"
 github "zsh",                   "1.0.0"
 
 # Services
-github "elasticsearch",         "2.8.0"
+github "elasticsearch",         "2.9.0.2", :repo => "envato/puppet-elasticsearch"
 github "mysql",                 "2.2.3"
 github "postgresql",            "5.0.0"
 github "pow",                   "2.4.0"
