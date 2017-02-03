@@ -69,7 +69,7 @@ github "zsh",                   "1.0.0"
 github "elasticsearch",         "2.8.0"
 github "mysql",                 "2.2.3"
 github "postgresql",            "5.0.0"
-github "pow",                   "2.3.1"
+github "pow",                   "2.4.0"
 github "redis",                 "3.1.0"
 
 # Application modules

@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-pow
   specs:
-    pow (2.3.1)
+    pow (2.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-property_list_key
@@ -189,7 +189,7 @@ DEPENDENCIES
   osx (= 2.8.0)
   pkgconfig (= 1.0.0)
   postgresql (= 5.0.0)
-  pow (= 2.3.1)
+  pow (= 2.4.0)
   prezto (= 1.0.1)
   property_list_key (= 0.1.0)
   redis (= 3.1.0)
