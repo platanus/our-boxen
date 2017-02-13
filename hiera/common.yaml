@@ -2,7 +2,6 @@
 boxen::config::hiera_merge_hierarchy: true
 
 boxen::personal::homebrew_packages:
-  - ant
   - chromedriver
   - imagemagick
   - libyaml
