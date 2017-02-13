@@ -65,9 +65,6 @@ node default {
   #  fail('Please enable full disk encryption and try again')
   #}
 
-  # Custom modules
-  include platanus::environment
-
   # common, useful packages
   package {
     [

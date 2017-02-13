@@ -1,1 +1,2 @@
 boxen_download_url_base: "http://boxen-downloads.platan.us.s3.amazonaws.com"
+brewcask_root: "/opt/homebrew-cask"
