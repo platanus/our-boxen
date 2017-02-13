@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (3.0.2)
+    gcc (3.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
-    redis (3.1.0)
+    redis (4.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -174,7 +174,7 @@ DEPENDENCIES
   brewcask (= 0.0.8)
   dnsmasq (= 2.0.2)
   elasticsearch (= 2.9.0.2)
-  gcc (= 3.0.2)
+  gcc (= 3.0.3)
   git (= 2.11.0)
   go (= 2.1.0)
   homebrew (= 2.1.0)
@@ -192,7 +192,7 @@ DEPENDENCIES
   pow (= 2.4.0)
   prezto (= 1.0.1)
   property_list_key (= 0.1.0)
-  redis (= 3.1.0)
+  redis (= 4.0.2)
   repository (= 2.4.1)
   ruby (= 8.5.7)
   stdlib (= 4.7.0)

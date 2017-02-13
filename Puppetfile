@@ -40,7 +40,7 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 github "brewcask",   "0.0.8"
 github "dnsmasq",    "2.0.2"
-github "gcc",        "3.0.2"
+github "gcc",        "3.0.3"
 github "git",        "2.11.0"
 github "homebrew",   "2.1.0"
 github "hub",        "1.4.4"
@@ -70,7 +70,7 @@ github "elasticsearch",         "2.9.0.2", :repo => "envato/puppet-elasticsearch
 github "mysql",                 "2.2.3"
 github "postgresql",            "5.0.0"
 github "pow",                   "2.4.0"
-github "redis",                 "3.1.0"
+github "redis",                 "4.0.2"
 
 # Application modules
 github "sublime_text",          "1.0.1"
