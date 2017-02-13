@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.7)
+    brewcask (0.0.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -171,7 +171,7 @@ GITHUBTARBALL
 DEPENDENCIES
   android (= 1.6.0)
   boxen (= 3.11.1)
-  brewcask (= 0.0.7)
+  brewcask (= 0.0.8)
   dnsmasq (= 2.0.2)
   elasticsearch (= 2.9.0.2)
   gcc (= 3.0.2)
