@@ -7,6 +7,7 @@ boxen::personal::homebrew_packages:
   - libyaml
   - phantomjs
   - postgis
+  - yarn
 
 boxen::personal::includes:
   - mysql
@@ -23,22 +24,21 @@ boxen::personal::osx_apps:
   - screenhero
 
 boxen::personal::stacks:
-  - android
   - node
   - ruby
 
 hub::protocol: https
 
 nodejs::provider: 'nodenv'
-nodejs::build::ensure: 'v2.4.0'
+nodejs::build::ensure: 'v2.5.12'
 nodejs::nodenv::ensure: v1.0.0
 nodejs::version::alias:
-  "0.10": 0.10.36
-  "0.12": 0.12.2
   "4.6": 4.6.1
   "4": "4.6"
   "6.9": 6.9.1
   "6": "6.9"
+  "7.10": 7.10.0
+  "7": "7.10"
 
 nodejs::nodenv::plugins:
   nodenv-vars:
@@ -49,7 +49,7 @@ nodejs::nodenv::plugins:
     source: "nodenv/nodenv-package-rehash"
 
 ruby::provider: 'rbenv'
-ruby::build::ensure: 'v20161225'
+ruby::build::ensure: 'v20170405'
 ruby::rbenv::ensure: v1.1.0
 ruby::version::alias:
   2.0.0: 2.0.0-p648
@@ -61,8 +61,5 @@ ruby::rbenv::plugins:
   rbenv-vars:
     ensure: "3ffc5ce8cee564d3d892223add9548132ae22f8a"
     source: "sstephenson/rbenv-vars"
-
-java::update_version: '79'
-java::base_download_url: 'https://s3.amazonaws.com/boxen-downloads.platan.us/java'
 
 mysql::socket: "%{::boxen::config::datadir}/mysql/socket"

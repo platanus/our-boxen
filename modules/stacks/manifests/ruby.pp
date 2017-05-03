@@ -9,11 +9,6 @@ class stacks::ruby {
   ruby::version { '2.0.0': }
 
   # Gems
-  ruby_gem { 'rails for all rubies':
-    gem          => 'rails',
-    ruby_version => '*'
-  }
-
   ruby_gem { 'bundler for all rubies':
     gem          => 'bundler',
     ruby_version => '*'
@@ -28,5 +23,4 @@ class stacks::ruby {
     gem          => 'rubocop',
     ruby_version => '*'
   }
-
 }
